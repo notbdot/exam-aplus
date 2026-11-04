@@ -1,133 +1,117 @@
-# exam · A+ edition
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="web/assets/exam-wordmark-white.svg">
+    <img src="web/assets/exam-wordmark-ink.svg" alt="exam" width="220">
+  </picture>
+</p>
+<h1 align="center">Your A+ study room.</h1>
+<p align="center">Two cores. Your notes. A clearer next step.<br>A private, self-hosted study companion for CompTIA A+ V15.</p>
+<p align="center"><a href="#quick-start">Get started</a> · <a href="#a-study-session-that-stays-with-you">Study flow</a> · <a href="docs/DEPLOYMENT.md">Deployment & backups</a> · <a href="docs/CONTENT.md">Content & rights</a></p>
 
-A private, self-hosted A+ study companion with the **exam** identity. Two independent cores, objective notes, verified public lesson links, original retrieval checks, review reminders and safe scenario worksheets. Vanilla ES modules, Node 22, no runtime npm dependencies.
+![Today view with synthetic study progress](docs/images/desktop-home-light.png)
 
-**Content pack:** CompTIA A+ V15, **220-1201 / 220-1202**. Both numbered objective outlines are represented (27 Core 1 and36 Core 2 objectives), using short original paraphrases linked to the official PDFs. This is an outline and study companion, not a substitute for all blueprint bullets or a full course. Verified 2026-11-04 against official objective PDFs revision 4.0 and current provider indexes; exact retirement date remains unverified. Recheck CompTIA before booking; use both exams from the same series.
+**exam · A+ edition** helps one learner work through **Core 1 (220-1201)** and **Core 2 (220-1202)** without losing their notes or place. It is a standalone app with its own account and data volume—not a replacement for another exam installation.
 
-## Quick start — Docker Compose
+- **Keep the cores separate.** Independent notes, coverage and last-opened objectives, with a clear core/exam label wherever you work.
+- **Find the next useful thing.** Browse objectives by domain, search a topic, continue a brief or revisit an open reminder.
+- **Learn, recall, try.** Verified Professor Messer links, original sample checks with explanations, and safe scenario worksheets.
+- **Keep your work.** Autosave, revision-conflict recovery, draft downloads, JSON/Markdown exports and a private persistent volume.
 
-After the owner publishes the reviewed repository, clone its approved URL. Until then, extract the review archive into a new directory; do not point this edition at an existing exam/CCNA volume.
+Node 22 · Vanilla JavaScript · No runtime npm dependencies · Docker / Compose · Light & dark themes
+
+## Quick start
+
+**Requirements:** Git, Docker and Docker Compose v2. Each deployment is for **one personal study account**. Start with a fresh volume; do not reuse another app’s account or progress directory.
 
 ```sh
-# Replace the placeholder with the repository URL approved for publication.
-git clone <approved-repository-url> exam-aplus
+git clone https://github.com/notbdot/exam-aplus.git
 cd exam-aplus
 cp .env.example .env
 docker compose up --build -d
-docker compose ps
 docker compose exec app node tools/setup-link.mjs
 ```
 
-Open **http://localhost:3000** on the Docker host. The last command displays a **private, one-time setup URL** to the owner. Open that URL, set a password of 12–256 characters, and store it in your password manager. Do not paste the URL into tickets, logs, Git or chat. It expires after 30 minutes; rerun the command to renew it before enrollment. It refuses once an account exists. Tokens are generated securely; no default password exists.
+The last command displays a **private, one-time enrollment URL**. Open it on the Docker host, choose a password of 12–256 characters and save it in your password manager. There is **no default password** or public registration. Do not share the enrollment URL or put it in logs, screenshots or Git. It expires after 30 minutes; rerun the command to renew it before enrollment.
 
-One personal account per deployment. The displayed account name `study` is a password-manager label, not a configurable username. API authentication uses the password. There is no public registration. Login sessions are memory-only and require signing in again after restart; password and progress persist in the volume.
+The app opens at **http://localhost:3000** and binds only to loopback by default. Keep the exact address in `ORIGIN` consistent with the address you open. If changing the port, update both `EXAM_PORT` and `ORIGIN` in `.env`. After a restart you sign in again; your password and progress remain in the named volume.
 
-If you change the port, update **both** `EXAM_PORT` and `ORIGIN` in `.env`; for example port 3010 requires `ORIGIN=http://localhost:3010`. Use that exact hostname when opening the app. `localhost` and `127.0.0.1` are different origins. No trailing slash.
+For a remote server, use an SSH tunnel to its loopback port or configure an HTTPS reverse proxy with an exact `ORIGIN`. See the [Docker run alternative, HTTPS and security settings](docs/DEPLOYMENT.md). The account label `study` is a password-manager hint; authentication uses your password.
 
-## Equivalent Docker run (no Compose required)
+## A study session that stays with you
 
-```sh
-docker build -t exam-aplus:local .
-docker volume create exam-aplus-data
-docker run -d --name exam-aplus \
-  --restart unless-stopped \
-  -p 127.0.0.1:3000:3000 \
-  --mount type=volume,src=exam-aplus-data,dst=/data \
-  --read-only --cap-drop ALL --security-opt no-new-privileges \
-  --pids-limit 64 --memory 256m --cpus 1 \
-  --log-opt max-size=10m --log-opt max-file=3 \
-  --tmpfs /tmp:rw,noexec,nosuid,size=16m \
-  -e ORIGIN=http://localhost:3000 exam-aplus:local
-docker exec exam-aplus node tools/setup-link.mjs
-```
+| Today | Objectives | Study |
+| --- | --- | --- |
+| Continue your current core or pick up a review reminder. | Search the domain/objective outline and filter open reminders or covered briefs. | Open mapped material, write notes, check recall and record practice evidence. |
 
-The image runs as the `node` user (UID 1000). A fresh named volume inherits writable `/data` ownership; no host UID editing is needed for normal startup. Use a **named volume**, not an arbitrary empty root-owned bind directory. Only `/data` is writable; healthcheck `GET /healthz` contains no notes or credentials. Logs contain startup/request failure types, not passwords or progress bodies. Configure Docker log rotation for a long-running host.
+**Covering material, recalling an answer and practicing a skill are different records.** A coverage mark is reversible. An answer check does not mark an objective mastered. Hands-on evidence and help level are self-reported—not an automatically verified badge.
 
-## HTTPS / reverse proxy
+Questions start unanswered on each visit. The latest submitted result is saved separately. Wrong or unsure answers create a review reminder for 9am on the next local calendar day. **Resolve / Reopen / Tomorrow** stay under your control; getting a later answer right does not silently resolve an existing reminder.
 
-Set `ORIGIN=https://your-exam-host.example` and keep the application port on loopback or a private Docker network behind your TLS proxy. Preserve the Host and Origin headers; proxy to container port 3000. HTTP is allowed only for loopback origins. HTTPS mode uses Secure, HttpOnly, SameSite=Strict cookies; POSTs require the exact configured Origin. No hardcoded host, Unraid network or external authentication service is required.
+<details>
+<summary><strong>See the Study workspace on desktop and mobile</strong></summary>
 
-All login attempts are rate-limited by the direct connecting address, ignoring untrusted `X-Forwarded-For`. Behind a proxy this intentionally creates a shared ten-attempt/15-minute bucket. Keep the private single-user deployment small; do not expose a shared multi-user service. TLS/proxy configuration belongs to the operator. Never expose the Docker socket to the app.
+![Study workspace with synthetic notes](docs/images/desktop-study-light.png)
 
-## How to study
+<img src="docs/images/mobile-study-dark.png" alt="Core 2 Study workspace in dark mode on a narrow viewport" width="320">
 
-- **Today:** independent core context, last-opened context preserved per core, next unreviewed brief or open sample-check review. No completion ceremony or timer required.
-- **Objectives:** complete numbered outline by domain with official exam weights, search/filter, an open-review filter and visible practice gaps. Titles are original short paraphrases, not the full official wording.
-- **Study:** original brief and recall prompt, per-objective notes, stable per-resource notes, public source links, optional material-coverage marks, optional authored checks, and guided scenario evidence.
-- **Coverage** means you worked through a particular brief/material. It does not mean the objective is mastered. Material marks, sample results and self-reported practice are independent.
-- **Retrieval:** choose before seeing the explanation. Each new visit starts unanswered. Only the latest submitted result per sample question is saved, with its content version; changing a checked answer removes stale feedback until checked again. Wrong or unsure results enter a deduplicated review list for 9am on the next local calendar day. A correct retry does not silently resolve an existing open reminder. Resolve/Reopen/Tomorrow are explicit controls, not adaptive pass predictions.
-- **Scenario practice:** nine domain worksheets reused across relevant objectives, with prerequisites, safe steps and self-check rubrics. Practice can be tabletop; OS/hardware changes require permission and a disposable lab. Evidence/help level is self-reported, never automatically verified or an official PBQ replica.
-- **Save/recovery:** notes save as typed. Retry handles transient errors. Revision conflicts block stale writes and offer the local draft download. Keep the tab open until saved or export the draft. Sign-out is blocked while unsaved changes remain.
+Screenshots come from the running app with invented study data. No real learner notes or credentials are shown.
+</details>
 
-Progress JSON and Markdown notes export are inside Study → General notes & export/import. JSON includes both cores and any current local edits; an unsaved draft is not proof the server stored it. Import validates the edition/schema, asks before replacing progress, and uses the current revision. Foreign CCNA or other-version files are rejected. Whole-volume backups are required for account recovery.
+## What is included—and what is not
 
-## Resources and private materials
+| Included in this content pack | Scope |
+| --- | --- |
+| Both numbered objective outlines | 27 Core 1 and 36 Core 2 objectives, with original short titles and official source citations. Full blueprint bullets remain in the official PDFs. |
+| 136 mapped public lesson links | 62 non-introduction Core 1 lessons and 74 Core 2 lessons from Professor Messer’s course indexes. Videos open externally. |
+| 63 original brief/recall prompts | Short orientation, not a replacement for instruction on every objective. |
+| 18 original sample questions | Two per domain, covering selected fragments only. Explanations and saved review reminders; **not a complete question bank or mock exam**. |
+| Nine shared domain worksheets | Safe tabletop/guided practice reused within each domain; **not 63 labs or a full PBQ simulator**. |
 
-**Included:** 136 objective-mapped public lesson links (62 non-introduction Core 1 lessons and74 Core 2 lessons), 63 original briefs, 18 original sample questions (two per each of nine domains; only selected objectives assessed) and nine domain-level scenario worksheets. Source metadata records mapping by provider course-index heading, not independent certification-completeness verification. No copied transcripts, paid notes, practice-exam PDFs, video files or exam dumps.
+There is no predicted pass probability, readiness percentage or conversion of accuracy into CompTIA’s scaled score. Practice gaps stay visible. Docker hosts the study app; it does not provide a Windows/macOS lab environment.
 
-Professor Messer is the default instruction resource: [220-1201 course](https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/220-1201-training-course/) and [220-1202 course](https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/220-1202-training-course/). Videos open externally; embedding permission and offline video access are not promised. The supplied Core 1 playlist was verified by the Researcher as matching this series. Exact paid/private materials have not been provided, imported or licensed for redistribution.
+**Version check:** V15, **220-1201 / 220-1202**, checked 2026-11-04 against official objective PDFs revision 4.0 and aligned provider indexes. Use both exams from the same series. Exact retirement date and the newest objective revision were not confirmed; check CompTIA before booking. [Source details and limitations →](docs/CONTENT.md)
 
-`web/resources.json` is a replaceable JSON link pack. Every resource has stable `id`, `title`, `provider`, `url`, `core`, `objectives`, `access` (`free`, `paid / own license` or `private / own license`) and optional factual metadata. URLs must be HTTPS or the protected private-file route. Map only verified matching-version material. Preserve stable IDs when reordering. Additional links work without a state reset; trackable material IDs must also be declared on that objective in `catalog.json` so validation cannot silently accept foreign progress. New pack/schema versions need an explicit migration; never remap saved IDs to different topics.
+## Bring the right materials
 
-To customize, make an untracked local copy of resources.json and mount it read-only at `/app/web/resources.json`. Do not include credential-bearing URL parameters. Paid purchase links do not grant access to their contents. If a user owns a lawful personal copy of a PDF/text/Markdown file, optionally mount their **private** directory read-only at `/materials`, set `MATERIALS_DIR=/materials`, and link `/private/owned-notes.pdf` in their private resource config. Filenames accept letters, digits, underscore and hyphen only. Download requires sign-in and is attachment-only. Symlinks escaping the mount are refused. Keep this directory and config out of Git/images; only the owner can establish their rights. No uploads or automatic material ingestion are implemented.
+The default is Professor Messer’s public [Core 1 course](https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/220-1201-training-course/) and [Core 2 course](https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/220-1202-training-course/), alongside the official objective checklist. Links are mapped by provider headings; that does not certify complete instruction or assessment coverage.
 
-See [content and rights](docs/CONTENT.md) for provenance and remaining source limits.
+No paid notes, practice-exam PDFs, transcripts, downloaded videos or exam dumps are included. Licensed material stays with its owner. You can configure additional links or an authenticated, read-only private-file mount without putting those files into Git or an image. [Resource configuration and private-material boundaries →](docs/RESOURCES.md)
 
-## Backup, restore, update and rollback
+CompTIA and Professor Messer names identify third-party exams and resources. **This project is not affiliated with or endorsed by either.**
 
-Single process and **one writer per data volume**. JSON writes use an atomic rename; revision conflicts protect concurrent tabs. Do not run two app containers against one volume.
+## Own your data
 
-Consistent Compose backup, stored privately on the operator’s machine:
+- **Persistence:** one named volume contains account and progress data. One app process writes to each volume.
+- **Recovery:** failed saves retain the draft in the tab; retry transient errors or download the draft before leaving. Conflicts refuse stale writes.
+- **Export:** Study → General notes & export/import downloads two-core JSON progress or Markdown notes. JSON may include unsaved local edits; it is not a full account backup.
+- **Backups and updates:** stop the writer for a consistent full-volume backup; rehearse restore into a separate volume. Normal compatible-image rollback retains newer progress.
 
-```sh
-mkdir -p backups
-chmod 700 backups
-backup="backups/$(date -u +%Y%m%dT%H%M%SZ)"
-mkdir "$backup"
-chmod 700 "$backup"
-docker compose stop app
-docker cp "$(docker compose ps -aq app)":/data/. "$backup/"
-docker compose start app
-```
+[Backup / restore / update runbook →](docs/DEPLOYMENT.md#backup-restore-update-and-rollback)
 
-Back up the **entire** directory, including auth.json. It contains password hashes and private notes; encrypt storage and restrict permissions. A browser export is not a full account backup. Record image digest, schema/edition, progress revision and hashes privately alongside it. Do not print account contents.
-
-Restore/rehearse into a **new** volume and separate loopback port, keeping the current deployment intact:
-
-```sh
-docker volume create exam-aplus-restore
-docker create --name exam-aplus-restore \
-  -p 127.0.0.1:3010:3000 \
-  --mount type=volume,src=exam-aplus-restore,dst=/data \
-  --read-only --cap-drop ALL --security-opt no-new-privileges \
-  -e ORIGIN=http://localhost:3010 exam-aplus:local
-docker cp "$backup/." exam-aplus-restore:/data
-docker run --rm --network none --user 0 \
-  --mount type=volume,src=exam-aplus-restore,dst=/data \
-  exam-aplus:local chown -R node:node /data
-docker start exam-aplus-restore
-```
-
-The short root maintenance container fixes restored-file ownership **only in the new volume**; normal app runtime stays non-root. Open localhost:3010, sign in with the backed-up password, compare notes/material marks/reviews, and verify health before any cutover. Do not overwrite the only current volume while testing a restore.
-
-For updates, tag releases immutably, back up first, build and rehearse on the restored copy, and retain the previous image digest. Then replace the app container with the new image using the **existing current** volume and the same origin. Normal presentation rollback uses the previous compatible image with current progress; do not restore older progress over newer edits. An incompatible schema requires a separately reviewed migration/restore with an explicit data-loss decision. Never use `docker compose down -v` as an update step.
-
-## Verify / develop
+## Development and verification
 
 ```sh
 node --test tests/*.test.mjs
-# Same command via npm, where npm is installed:
+# Or, with npm available:
 npm test
 docker build -t exam-aplus:test .
 node tools/docker-smoke.mjs exam-aplus:test
 ```
 
-The Docker lifecycle test creates uniquely named **disposable** containers/volumes, enrolls a synthetic account without logging credentials, saves both cores and review data, restarts/relogs, backs up and restores into another volume, compares auth/progress bytes and cleans its own test resources. Never point it at a live volume. GitHub Actions runs Node tests, Compose configuration validation, Docker build and this smoke test on pushes/PRs. No registry publication is configured.
+The Docker smoke test creates and cleans its own disposable containers/volumes. It checks fresh enrollment, two-core saves, persistent reviews, restart/re-login and independent backup restoration. Never point tests at a live volume.
 
-Tests use Node 22+. No npm package installation is required. `PORT=3000 DATA_DIR=./data ORIGIN=http://localhost:3000 node server.mjs` runs locally; retrieve/renew setup via `DATA_DIR=./data ORIGIN=http://localhost:3000 node tools/setup-link.mjs`.
+The GitHub Actions workflow checks Node tests, Compose configuration, Docker build and the lifecycle smoke test. No automatic deployment or image-registry publication is configured. [Workflow →](.github/workflows/ci.yml)
 
-## Limits / publication
+Run without Docker for local development:
 
-One user, one instance; no account sync, password-reset email, proctoring, full mock exam or auto-grading of hands-on work. No official scaled-score conversion or pass probability. Most objectives have no authored MCQ; the gap is shown. Some scenario worksheets intentionally repeat at domain level. Browser validation uses Chromium emulation, not physical-device or screen-reader certification. Exact V15 retirement and newest objective revision need a fresh successful CompTIA check before booking.
+```sh
+PORT=3000 DATA_DIR=./data ORIGIN=http://localhost:3000 node server.mjs
+# In another terminal, retrieve the private setup link:
+DATA_DIR=./data ORIGIN=http://localhost:3000 node tools/setup-link.mjs
+```
 
-This repository is prepared locally. A GitHub owner/name, visibility, licensing review and publication approval are still required before push; no hosted friend deployment has occurred. Brand/code/original content are MIT; fonts keep their included licenses. CompTIA/Professor Messer marks identify third-party resources and do not imply endorsement.
+## Limits and license
+
+Single account, single instance; no account sync, password-reset email, proctoring, full attempt-history audit or automated grading of practical work. Browser checks use Chromium emulation, not physical-device or screen-reader certification. External provider playback, licensing and access remain with the provider.
+
+The repository’s existing [MIT license](LICENSE) applies to its code and original content. The bundled Space Grotesk font retains its [SIL Open Font License](web/fonts/OFL-SpaceGrotesk.txt). Third-party course materials and trademarks are not relicensed by this project. [Provenance and rights →](docs/CONTENT.md)

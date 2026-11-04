@@ -9,3 +9,8 @@ private/
 *.zip
 node_modules/
 coverage/
+*.pem
+*.key
+auth.json
+progress.json
+bootstrap
