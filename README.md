@@ -52,7 +52,7 @@ All login attempts are rate-limited by the direct connecting address, ignoring u
 ## How to study
 
 - **Today:** independent core context, last-opened context preserved per core, next unreviewed brief or open sample-check review. No completion ceremony or timer required.
-- **Objectives:** complete numbered outline by domain with official exam weights, search/filter and visible practice gaps. Titles are original short paraphrases, not the full official wording.
+- **Objectives:** complete numbered outline by domain with official exam weights, search/filter, an open-review filter and visible practice gaps. Titles are original short paraphrases, not the full official wording.
 - **Study:** original brief and recall prompt, per-objective notes, stable per-resource notes, public source links, optional material-coverage marks, optional authored checks, and guided scenario evidence.
 - **Coverage** means you worked through a particular brief/material. It does not mean the objective is mastered. Material marks, sample results and self-reported practice are independent.
 - **Retrieval:** choose before seeing the explanation. Each new visit starts unanswered. Only the latest submitted result per sample question is saved, with its content version; changing a checked answer removes stale feedback until checked again. Wrong or unsure results enter a deduplicated review list for 9am on the next local calendar day. A correct retry does not silently resolve an existing open reminder. Resolve/Reopen/Tomorrow are explicit controls, not adaptive pass predictions.
