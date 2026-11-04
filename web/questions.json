@@ -1,0 +1,272 @@
+[
+  {
+    "id": "c1-1-sample-1",
+    "version": "1",
+    "objective": "c1-1.1",
+    "q": "A laptop battery is visibly swollen. What is the best next action?",
+    "options": [
+      "Press it flat and continue testing",
+      "Stop using the device and follow the manufacturer\u2019s safe battery-service procedure",
+      "Puncture it to release pressure",
+      "Run a long stress test"
+    ],
+    "answer": 1,
+    "why": "Swelling is a safety hazard. Do not compress, puncture or stress the battery. Isolate the device from use and follow qualified service guidance.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c1-1-sample-2",
+    "version": "1",
+    "objective": "c1-1.2",
+    "q": "A USB-C cable charges a phone but a laptop cannot detect the phone for file transfer. Which is the best initial check?",
+    "options": [
+      "Assume every USB-C cable has identical data capabilities",
+      "Factory-reset both devices",
+      "Verify cable data support and the phone\u2019s USB connection mode",
+      "Disable all endpoint security"
+    ],
+    "answer": 2,
+    "why": "Connector shape does not establish data capability. Check a known data-capable cable and authorized connection settings before destructive or broad changes.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c1-2-sample-1",
+    "version": "1",
+    "objective": "c1-2.1",
+    "q": "A client must resolve a hostname before opening an HTTPS page. Which service/port pairing normally identifies the DNS query service?",
+    "options": [
+      "DNS on UDP/TCP port 53",
+      "HTTPS on TCP port 443",
+      "SSH on TCP port 22",
+      "SMTP on TCP port 25"
+    ],
+    "answer": 0,
+    "why": "DNS uses port 53, commonly UDP for ordinary queries and TCP where needed. HTTPS on port 443 protects the subsequent web connection; it is not the name-resolution service.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c1-2-sample-2",
+    "version": "1",
+    "objective": "c1-2.6",
+    "q": "A client needs to communicate with a host outside its local subnet. Which configured item normally provides the next hop?",
+    "options": [
+      "The display refresh rate",
+      "The DNS search suffix",
+      "The local print queue",
+      "The default gateway"
+    ],
+    "answer": 3,
+    "why": "The default gateway routes traffic beyond the local subnet. DNS can supply an address but does not forward that traffic.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c1-3-sample-1",
+    "version": "1",
+    "objective": "c1-3.3",
+    "q": "You are proposing a RAM upgrade. Which evidence is most useful before purchasing?",
+    "options": [
+      "The color of the heat spreader",
+      "Supported generation, form factor and capacity in the system documentation",
+      "The largest capacity advertised anywhere",
+      "The fact that a module came from another desktop"
+    ],
+    "answer": 1,
+    "why": "Memory compatibility includes generation, physical format, platform support and capacity limits. Capacity and appearance alone are insufficient.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c1-3-sample-2",
+    "version": "1",
+    "objective": "c1-3.4",
+    "q": "A user mirrors two drives and calls this a complete backup. Which incident still threatens both current copies?",
+    "options": [
+      "One mirrored drive failing while the other remains healthy",
+      "A data read from either drive",
+      "An accidental file deletion replicated across the mirror",
+      "A temporary loss of the monitor signal"
+    ],
+    "answer": 2,
+    "why": "Mirroring primarily supports availability after certain hardware failures. Deletions and other logical changes can affect both copies, so a separate recoverable backup is still needed.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c1-4-sample-1",
+    "version": "1",
+    "objective": "c1-4.1",
+    "q": "A lab VM snapshot exists only on the same physical disk as the VM. What does the snapshot NOT protect against?",
+    "options": [
+      "Undoing some changes within the lab",
+      "Host-disk failure that destroys both VM and snapshot",
+      "Returning to a captured VM state when supported",
+      "Testing a change in a disposable VM"
+    ],
+    "answer": 1,
+    "why": "A snapshot on the same storage is not an independent backup. Host-storage loss can destroy both the VM and its checkpoints.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c1-4-sample-2",
+    "version": "1",
+    "objective": "c1-4.2",
+    "q": "A team uses a provider-hosted SaaS application. Which responsibility commonly still belongs to the customer?",
+    "options": [
+      "Maintaining the provider\u2019s physical servers",
+      "Replacing disks in the provider\u2019s rack",
+      "Managing authorized users and the data they share",
+      "Patching the provider\u2019s hypervisor"
+    ],
+    "answer": 2,
+    "why": "SaaS shifts much of the application infrastructure to the provider, but customer identity, access decisions and responsible data handling still matter.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c1-5-sample-1",
+    "version": "1",
+    "objective": "c1-5.3",
+    "q": "A display shows its own on-screen menu, but no image from the workstation. What is a useful next controlled step?",
+    "options": [
+      "Immediately replace the motherboard",
+      "Open the monitor\u2019s power supply",
+      "Erase the workstation drive",
+      "Verify the selected input and test a known-good signal cable"
+    ],
+    "answer": 3,
+    "why": "The working menu is evidence that the display can produce an image. Checking input selection and a known-good signal path narrows the problem without unsafe or destructive changes.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c1-5-sample-2",
+    "version": "1",
+    "objective": "c1-5.5",
+    "q": "A user says the internet is down. Which observation best helps distinguish a local-link issue from a name-resolution issue?",
+    "options": [
+      "Whether a known local device is reachable and whether a hostname resolves",
+      "The desktop wallpaper",
+      "The installed font list",
+      "The age of the keyboard"
+    ],
+    "answer": 0,
+    "why": "Separate local reachability from DNS. Controlled observations identify which layer deserves investigation instead of changing unrelated settings.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c2-1-sample-1",
+    "version": "1",
+    "objective": "c2-1.2",
+    "q": "Before an OS reinstall that may erase existing partitions, which prerequisite matters most?",
+    "options": [
+      "A new wallpaper",
+      "Disabling all password prompts",
+      "An authorized plan with a verified recoverable backup and required recovery information",
+      "Installing an unrelated browser extension"
+    ],
+    "answer": 2,
+    "why": "Partition changes can destroy data. Confirm authorization, backups, keys, installation media and a recovery plan before proceeding.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c2-1-sample-2",
+    "version": "1",
+    "objective": "c2-1.9",
+    "q": "On a systemd-based Linux lab machine, which read-only command can inspect journal logs, subject to the current account\u2019s permissions?",
+    "options": [
+      "journalctl",
+      "rm -rf /var/log",
+      "chmod -R 777 /",
+      "mkfs.ext4 /dev/sda"
+    ],
+    "answer": 0,
+    "why": "journalctl views the systemd journal without formatting or deleting data. Some entries require authorized access; request only the needed privilege rather than weakening permissions or running unrelated destructive commands.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c2-2-sample-1",
+    "version": "1",
+    "objective": "c2-2.5",
+    "q": "An urgent message asks you to install a remote tool and share a password. What is the safest response?",
+    "options": [
+      "Reply with the password to test the sender",
+      "Verify the request through a separately known channel and follow the support process",
+      "Install first and ask later",
+      "Forward private credentials to everyone for awareness"
+    ],
+    "answer": 1,
+    "why": "Urgency and impersonation are common social-engineering techniques. Independent verification avoids relying on attacker-controlled reply paths, and passwords should not be shared.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c2-2-sample-2",
+    "version": "1",
+    "objective": "c2-2.9",
+    "q": "A company is retiring an SSD containing sensitive data. What determines the correct sanitization approach?",
+    "options": [
+      "The drive\u2019s case color",
+      "Whether its files were moved to the recycle bin",
+      "How quickly the desktop starts",
+      "Approved policy, media capabilities and required verification evidence"
+    ],
+    "answer": 3,
+    "why": "Sanitization must match the media and policy. Ordinary file deletion does not establish that sensitive data is unrecoverable.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c2-3-sample-1",
+    "version": "1",
+    "objective": "c2-3.1",
+    "q": "One application began crashing immediately after an update. What is the best first troubleshooting record?",
+    "options": [
+      "Assume the whole OS must be reinstalled",
+      "Document scope, update timing, relevant errors and a reversible test",
+      "Delete all user files to free space",
+      "Disable every security control"
+    ],
+    "answer": 1,
+    "why": "Scope and timing provide evidence for a hypothesis. Reversible targeted tests preserve data and let you compare outcomes.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c2-3-sample-2",
+    "version": "1",
+    "objective": "c2-3.2",
+    "q": "A mobile app\u2019s local data may not have synchronized. What should you establish before reinstalling it?",
+    "options": [
+      "Whether unsynchronized data needs preservation and whether recovery is available",
+      "Whether its icon can be moved",
+      "Whether the phone has the newest wallpaper",
+      "Whether another app uses the same color"
+    ],
+    "answer": 0,
+    "why": "Reinstallation or data clearing may remove the only copy of unsynchronized information. Confirm backup/recovery and authorization before a destructive action.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c2-4-sample-1",
+    "version": "1",
+    "objective": "c2-4.3",
+    "q": "A backup job reports success. Which test provides stronger evidence that it is useful?",
+    "options": [
+      "Checking only the job\u2019s green icon",
+      "Deleting the original immediately",
+      "Restoring a copy to an isolated location and checking integrity and usability",
+      "Renaming the backup file"
+    ],
+    "answer": 2,
+    "why": "A successful restore verifies more than job completion. Restore separately so the current usable copy is not put at risk.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  },
+  {
+    "id": "c2-4-sample-2",
+    "version": "1",
+    "objective": "c2-4.10",
+    "q": "You want AI help with an internal support ticket. Which approach best protects the user?",
+    "options": [
+      "Paste passwords and all private documents for context",
+      "Execute the first suggested command without review",
+      "Treat any confident answer as authoritative",
+      "Use a sanitized example and independently verify any proposed action"
+    ],
+    "answer": 3,
+    "why": "AI output can be wrong and input may leave the organization\u2019s control. Minimize sensitive data and verify actions against trusted documentation and authorization.",
+    "rights": "Original exam app teaching content. Not official CompTIA or Professor Messer exam questions."
+  }
+]

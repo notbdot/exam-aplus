@@ -1,0 +1,8 @@
+*
+!Dockerfile
+!package.json
+!server.mjs
+!web
+!web/**
+!tools
+!tools/**

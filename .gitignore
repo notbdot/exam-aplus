@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+data/
+backups/
+private/
+*.tar
+*.tar.gz
+*.zip
+node_modules/
+coverage/

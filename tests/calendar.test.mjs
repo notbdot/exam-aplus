@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {execFileSync} from 'node:child_process';
+test('next local calendar day remains9am across both daylight-saving transitions',()=>{
+ const output=execFileSync(process.execPath,['--input-type=module','-e',`import {tomorrowAt} from './web/model.js';for(const value of ['2026-03-07T12:00:00','2026-10-31T12:00:00']){const d=new Date(value),n=new Date(tomorrowAt(d.getTime()));console.log(JSON.stringify({hour:n.getHours(),date:n.getDate(),expected:new Date(d.getFullYear(),d.getMonth(),d.getDate()+1).getDate()}));}`],{cwd:new URL('..',import.meta.url),env:{...process.env,TZ:'America/New_York'},encoding:'utf8'});for(const line of output.trim().split('\n')){const x=JSON.parse(line);assert.equal(x.hour,9);assert.equal(x.date,x.expected);}
+});

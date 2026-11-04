@@ -1,0 +1,21 @@
+/* exam • visual identity for exam • 2026-11-03 */
+:root{color-scheme:light dark;
+ --paper:#edf0f6;--surface:#ffffff;--subtle:#e5eaf4;--ink:#131d31;--muted:#526078;
+ --brand:#2447d8;--on-brand:#ffffff;--brand-wash:#e8edff;--brand-ink:#2341b4;
+ --line:#ccd3e1;--control:#7a879f;--success:#19634a;--success-wash:#e4f4ed;
+ --warm:#805015;--warm-wash:#fff0d8;--error:#a52e41;--error-wash:#ffeaee;
+ --plate:#2447d8;--on-plate:#ffffff;--plate-soft:#cbd7ff;
+ --display:Space,ui-sans-serif,system-ui,sans-serif;--body:Space,ui-sans-serif,system-ui,sans-serif;
+ --mono:ui-monospace,SFMono-Regular,Consolas,monospace;
+ --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;--s8:64px;
+ --r-control:7px;--r-panel:18px;--target:44px;--focus:var(--brand);--motion:150ms;
+ --shadow:0 20px 44px -28px #1e2b5155,0 2px 4px #1e2b5108;
+}
+@media(prefers-color-scheme:dark){:root{
+ --paper:#0d1423;--surface:#162035;--subtle:#202d46;--ink:#f0f3fc;--muted:#b4c2db;
+ --brand:#b5c7ff;--on-brand:#102354;--brand-wash:#25365a;--brand-ink:#bdceff;
+ --line:#3d4d6a;--control:#8296ba;--success:#a0e0c6;--success-wash:#173c32;
+ --warm:#f2c587;--warm-wash:#3c2c18;--error:#ffb2c0;--error-wash:#442530;
+ --plate:#2447d8;--on-plate:#ffffff;--plate-soft:#d1dcff;
+ --shadow:0 24px 40px -26px #000c,0 1px 0 #ffffff08;
+}}

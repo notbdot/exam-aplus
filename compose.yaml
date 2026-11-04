@@ -1,0 +1,27 @@
+services:
+  app:
+    build: .
+    image: exam-aplus:local
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    ports:
+      - "127.0.0.1:${EXAM_PORT:-3000}:3000"
+    environment:
+      ORIGIN: ${ORIGIN:-http://localhost:3000}
+      DATA_DIR: /data
+    volumes:
+      - exam-data:/data
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 64
+    mem_limit: 256m
+    cpus: 1
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=16m
+volumes:
+  exam-data:

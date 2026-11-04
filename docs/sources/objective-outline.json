@@ -1,0 +1,762 @@
+{
+  "schema_version": 2,
+  "checked_at": "2026-11-04",
+  "certification": "CompTIA A+",
+  "exam_version": "V15",
+  "scope": "Complete numbered-objective IDs with original short labels; NOT all official bullet-level content, and not a course-completeness or readiness claim.",
+  "objective_document_version_verified": "4.0",
+  "latest_revision_confirmed": false,
+  "current_status_evidence": "official PDFs plus live aligned provider indexes; CompTIA live certification pages inaccessible",
+  "retirement_date": null,
+  "retirement_estimate_year": 2028,
+  "retirement_evidence_status": "historical CompTIA response dated 2025-10-07 on BBB; current deadline unverified",
+  "same_version_required": true,
+  "exams": [
+    {
+      "exam_code": "220-1201",
+      "core": 1,
+      "max_questions": 90,
+      "duration_minutes": 90,
+      "passing_scaled_score": 675,
+      "score_scale": [
+        100,
+        900
+      ],
+      "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+      "source_pdf_page": 3,
+      "domains": [
+        {
+          "id": "aplus-v15:220-1201:1.0",
+          "objective_prefix": "1",
+          "title": "Mobile Devices",
+          "weight_percent": 13,
+          "subobjectives": [
+            {
+              "id": "aplus-v15:220-1201:1.1",
+              "objective_code": "1.1",
+              "title": "Maintain mobile hardware",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 4,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=4",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:1.2",
+              "objective_code": "1.2",
+              "title": "Compare mobile connections and accessories",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 4,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=4",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:1.3",
+              "objective_code": "1.3",
+              "title": "Configure mobile connectivity and applications",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 4,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=4",
+              "source_document_version": "4.0"
+            }
+          ],
+          "subobjectives_status": "all numbered objectives included; bullet-level details omitted"
+        },
+        {
+          "id": "aplus-v15:220-1201:2.0",
+          "objective_prefix": "2",
+          "title": "Networking",
+          "weight_percent": 23,
+          "subobjectives": [
+            {
+              "id": "aplus-v15:220-1201:2.1",
+              "objective_code": "2.1",
+              "title": "Distinguish transport protocols and ports",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 5,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=5",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:2.2",
+              "objective_code": "2.2",
+              "title": "Explain wireless technologies",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 5,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=5",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:2.3",
+              "objective_code": "2.3",
+              "title": "Describe network host services",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 5,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=5",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:2.4",
+              "objective_code": "2.4",
+              "title": "Explain network service configuration",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 6,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=6",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:2.5",
+              "objective_code": "2.5",
+              "title": "Compare network equipment",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 6,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=6",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:2.6",
+              "objective_code": "2.6",
+              "title": "Configure small-office networks",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 6,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=6",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:2.7",
+              "objective_code": "2.7",
+              "title": "Compare internet links and networks",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 7,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=7",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:2.8",
+              "objective_code": "2.8",
+              "title": "Select network tools",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 7,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=7",
+              "source_document_version": "4.0"
+            }
+          ],
+          "subobjectives_status": "all numbered objectives included; bullet-level details omitted"
+        },
+        {
+          "id": "aplus-v15:220-1201:3.0",
+          "objective_prefix": "3",
+          "title": "Hardware",
+          "weight_percent": 25,
+          "subobjectives": [
+            {
+              "id": "aplus-v15:220-1201:3.1",
+              "objective_code": "3.1",
+              "title": "Compare display technologies",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 8,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=8",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:3.2",
+              "objective_code": "3.2",
+              "title": "Identify cables and connectors",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 8,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=8",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:3.3",
+              "objective_code": "3.3",
+              "title": "Compare memory characteristics",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 8,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=8",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:3.4",
+              "objective_code": "3.4",
+              "title": "Compare storage options",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 9,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=9",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:3.5",
+              "objective_code": "3.5",
+              "title": "Install boards processors and expansions",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 9,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=9",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:3.6",
+              "objective_code": "3.6",
+              "title": "Select and install power supplies",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 9,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=9",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:3.7",
+              "objective_code": "3.7",
+              "title": "Configure printers and multifunction devices",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 10,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=10",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:3.8",
+              "objective_code": "3.8",
+              "title": "Maintain printing equipment",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 10,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=10",
+              "source_document_version": "4.0"
+            }
+          ],
+          "subobjectives_status": "all numbered objectives included; bullet-level details omitted"
+        },
+        {
+          "id": "aplus-v15:220-1201:4.0",
+          "objective_prefix": "4",
+          "title": "Virtualization and Cloud Computing",
+          "weight_percent": 11,
+          "subobjectives": [
+            {
+              "id": "aplus-v15:220-1201:4.1",
+              "objective_code": "4.1",
+              "title": "Explain virtualized environments",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 11,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=11",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:4.2",
+              "objective_code": "4.2",
+              "title": "Describe cloud computing models",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 11,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=11",
+              "source_document_version": "4.0"
+            }
+          ],
+          "subobjectives_status": "all numbered objectives included; bullet-level details omitted"
+        },
+        {
+          "id": "aplus-v15:220-1201:5.0",
+          "objective_prefix": "5",
+          "title": "Hardware and Network Troubleshooting",
+          "weight_percent": 28,
+          "subobjectives": [
+            {
+              "id": "aplus-v15:220-1201:5.1",
+              "objective_code": "5.1",
+              "title": "Diagnose mainboard memory processor power",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 12,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=12",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:5.2",
+              "objective_code": "5.2",
+              "title": "Diagnose storage and RAID faults",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 12,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=12",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:5.3",
+              "objective_code": "5.3",
+              "title": "Resolve display and projector faults",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 12,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=12",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:5.4",
+              "objective_code": "5.4",
+              "title": "Resolve mobile hardware faults",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 12,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=12",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:5.5",
+              "objective_code": "5.5",
+              "title": "Resolve network connectivity faults",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 13,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=13",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1201:5.6",
+              "objective_code": "5.6",
+              "title": "Diagnose printing faults",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+              "source_pdf_page": 13,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=13",
+              "source_document_version": "4.0"
+            }
+          ],
+          "subobjectives_status": "all numbered objectives included; bullet-level details omitted"
+        }
+      ],
+      "objective_count": 27
+    },
+    {
+      "exam_code": "220-1202",
+      "core": 2,
+      "max_questions": 90,
+      "duration_minutes": 90,
+      "passing_scaled_score": 700,
+      "score_scale": [
+        100,
+        900
+      ],
+      "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+      "source_pdf_page": 3,
+      "domains": [
+        {
+          "id": "aplus-v15:220-1202:1.0",
+          "objective_prefix": "1",
+          "title": "Operating Systems",
+          "weight_percent": 28,
+          "subobjectives": [
+            {
+              "id": "aplus-v15:220-1202:1.1",
+              "objective_code": "1.1",
+              "title": "Compare operating-system purposes",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 4,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=4",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:1.2",
+              "objective_code": "1.2",
+              "title": "Install and upgrade operating systems",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 4,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=4",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:1.3",
+              "objective_code": "1.3",
+              "title": "Compare Windows editions",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 4,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=4",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:1.4",
+              "objective_code": "1.4",
+              "title": "Use Windows administration utilities",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 5,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=5",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:1.5",
+              "objective_code": "1.5",
+              "title": "Apply Windows command-line tools",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 5,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=5",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:1.6",
+              "objective_code": "1.6",
+              "title": "Adjust Windows configuration",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 5,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=5",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:1.7",
+              "objective_code": "1.7",
+              "title": "Configure Windows client networking",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 6,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=6",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:1.8",
+              "objective_code": "1.8",
+              "title": "Use macOS desktop features",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 6,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=6",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:1.9",
+              "objective_code": "1.9",
+              "title": "Recognize Linux desktop tools",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 7,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=7",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:1.10",
+              "objective_code": "1.10",
+              "title": "Install applications to requirements",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 7,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=7",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:1.11",
+              "objective_code": "1.11",
+              "title": "Configure cloud productivity applications",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 7,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=7",
+              "source_document_version": "4.0"
+            }
+          ],
+          "subobjectives_status": "all numbered objectives included; bullet-level details omitted"
+        },
+        {
+          "id": "aplus-v15:220-1202:2.0",
+          "objective_prefix": "2",
+          "title": "Security",
+          "weight_percent": 28,
+          "subobjectives": [
+            {
+              "id": "aplus-v15:220-1202:2.1",
+              "objective_code": "2.1",
+              "title": "Explain protective controls",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 8,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=8",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:2.2",
+              "objective_code": "2.2",
+              "title": "Apply Windows security controls",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 8,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=8",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:2.3",
+              "objective_code": "2.3",
+              "title": "Compare wireless authentication and protection",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 9,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=9",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:2.4",
+              "objective_code": "2.4",
+              "title": "Identify malware and countermeasures",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 9,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=9",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:2.5",
+              "objective_code": "2.5",
+              "title": "Distinguish attacks threats and weaknesses",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 9,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=9",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:2.6",
+              "objective_code": "2.6",
+              "title": "Remove small-office malware",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 10,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=10",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:2.7",
+              "objective_code": "2.7",
+              "title": "Harden workstation security",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 10,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=10",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:2.8",
+              "objective_code": "2.8",
+              "title": "Protect mobile devices",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 10,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=10",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:2.9",
+              "objective_code": "2.9",
+              "title": "Compare secure data disposal",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 10,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=10",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:2.10",
+              "objective_code": "2.10",
+              "title": "Secure small-office networks",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 11,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=11",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:2.11",
+              "objective_code": "2.11",
+              "title": "Configure browser protections",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 11,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=11",
+              "source_document_version": "4.0"
+            }
+          ],
+          "subobjectives_status": "all numbered objectives included; bullet-level details omitted"
+        },
+        {
+          "id": "aplus-v15:220-1202:3.0",
+          "objective_prefix": "3",
+          "title": "Software Troubleshooting",
+          "weight_percent": 23,
+          "subobjectives": [
+            {
+              "id": "aplus-v15:220-1202:3.1",
+              "objective_code": "3.1",
+              "title": "Resolve Windows operating-system faults",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 12,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=12",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:3.2",
+              "objective_code": "3.2",
+              "title": "Resolve mobile software faults",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 12,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=12",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:3.3",
+              "objective_code": "3.3",
+              "title": "Investigate mobile security symptoms",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 12,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=12",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:3.4",
+              "objective_code": "3.4",
+              "title": "Investigate computer security symptoms",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 12,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=12",
+              "source_document_version": "4.0"
+            }
+          ],
+          "subobjectives_status": "all numbered objectives included; bullet-level details omitted"
+        },
+        {
+          "id": "aplus-v15:220-1202:4.0",
+          "objective_prefix": "4",
+          "title": "Operational Procedures",
+          "weight_percent": 21,
+          "subobjectives": [
+            {
+              "id": "aplus-v15:220-1202:4.1",
+              "objective_code": "4.1",
+              "title": "Maintain support documentation systems",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 13,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=13",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:4.2",
+              "objective_code": "4.2",
+              "title": "Follow controlled change procedures",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 13,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=13",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:4.3",
+              "objective_code": "4.3",
+              "title": "Perform workstation backup and recovery",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 13,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=13",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:4.4",
+              "objective_code": "4.4",
+              "title": "Work safely with equipment",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 14,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=14",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:4.5",
+              "objective_code": "4.5",
+              "title": "Manage environmental risks and conditions",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 14,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=14",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:4.6",
+              "objective_code": "4.6",
+              "title": "Respect privacy licensing and policies",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 14,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=14",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:4.7",
+              "objective_code": "4.7",
+              "title": "Communicate professionally with users",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 15,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=15",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:4.8",
+              "objective_code": "4.8",
+              "title": "Explain scripting fundamentals",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 15,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=15",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:4.9",
+              "objective_code": "4.9",
+              "title": "Apply remote support technologies",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 15,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=15",
+              "source_document_version": "4.0"
+            },
+            {
+              "id": "aplus-v15:220-1202:4.10",
+              "objective_code": "4.10",
+              "title": "Explain AI fundamentals",
+              "title_kind": "original short paraphrase; not official wording",
+              "source_url": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+              "source_pdf_page": 15,
+              "source_citation": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=15",
+              "source_document_version": "4.0"
+            }
+          ],
+          "subobjectives_status": "all numbered objectives included; bullet-level details omitted"
+        }
+      ],
+      "objective_count": 36
+    }
+  ],
+  "page_number_basis": "1-based PDF physical page; cover is page1",
+  "reviewed_at": "2026-11-04",
+  "review_method": "Read official PDF text locally, checked numbered-objective groups and physical pages, compared IDs with provider catalog; paid content not used."
+}

@@ -1,0 +1,1860 @@
+{
+  "edition": "aplus-v15",
+  "verified": "2026-11-04",
+  "objectiveRevision": "4.0",
+  "retirementDate": null,
+  "cores": [
+    {
+      "id": "core1",
+      "label": "Core 1",
+      "code": "220-1201",
+      "objectivesUrl": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652",
+      "courseUrl": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/220-1201-training-course/",
+      "domains": [
+        {
+          "number": "1.0",
+          "title": "Mobile Devices",
+          "weight": 13
+        },
+        {
+          "number": "2.0",
+          "title": "Networking",
+          "weight": 23
+        },
+        {
+          "number": "3.0",
+          "title": "Hardware",
+          "weight": 25
+        },
+        {
+          "number": "4.0",
+          "title": "Virtualization and Cloud Computing",
+          "weight": 11
+        },
+        {
+          "number": "5.0",
+          "title": "Hardware and Network Troubleshooting",
+          "weight": 28
+        }
+      ],
+      "objectives": [
+        {
+          "id": "c1-1.1",
+          "number": "1.1",
+          "domain": "1.0",
+          "title": "Maintain mobile hardware",
+          "summary": "Portable computers trade expansion space for compact design. Identify replaceable parts using the service manual; power isolation and battery condition come before opening a case.",
+          "recall": "Why can two laptops with similar specifications require different replacement parts?",
+          "materials": [
+            "messer-1-lesson-002"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=4",
+          "task": {
+            "id": "scenario-1-1.0",
+            "title": "Accessory compatibility worksheet",
+            "scenario": "A user needs one cable for a laptop, dock and display.",
+            "prerequisites": "Use manuals or vendor specification pages; do not open or power-cycle another person\u2019s device.",
+            "steps": [
+              "List the host port\u2019s data, video and charging capabilities.",
+              "List the dock and display requirements.",
+              "Choose a compatible cable and explain why connector shape alone is insufficient."
+            ],
+            "rubric": "Record the three specifications and identify one unsupported assumption."
+          },
+          "briefTitle": "Laptop serviceability",
+          "sourcePdfPage": 4
+        },
+        {
+          "id": "c1-1.2",
+          "number": "1.2",
+          "domain": "1.0",
+          "title": "Compare mobile connections and accessories",
+          "summary": "A matching connector does not guarantee compatible data, video or charging capabilities. Check the host port, cable specification and accessory requirements as a chain.",
+          "recall": "How would you distinguish a charging-only cable from a working data connection?",
+          "materials": [
+            "messer-1-lesson-003",
+            "messer-1-lesson-004"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=4",
+          "task": {
+            "id": "scenario-1-1.0",
+            "title": "Accessory compatibility worksheet",
+            "scenario": "A user needs one cable for a laptop, dock and display.",
+            "prerequisites": "Use manuals or vendor specification pages; do not open or power-cycle another person\u2019s device.",
+            "steps": [
+              "List the host port\u2019s data, video and charging capabilities.",
+              "List the dock and display requirements.",
+              "Choose a compatible cable and explain why connector shape alone is insufficient."
+            ],
+            "rubric": "Record the three specifications and identify one unsupported assumption."
+          },
+          "briefTitle": "Mobile connections and accessories",
+          "sourcePdfPage": 4
+        },
+        {
+          "id": "c1-1.3",
+          "number": "1.3",
+          "domain": "1.0",
+          "title": "Configure mobile connectivity and applications",
+          "summary": "Cellular, Wi-Fi and Bluetooth solve different connection problems. Management policies can restrict features even when the radio and hardware are functioning.",
+          "recall": "Which observations would separate a network problem from a managed-device policy?",
+          "materials": [
+            "messer-1-lesson-005",
+            "messer-1-lesson-006"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=4",
+          "task": {
+            "id": "scenario-1-1.0",
+            "title": "Accessory compatibility worksheet",
+            "scenario": "A user needs one cable for a laptop, dock and display.",
+            "prerequisites": "Use manuals or vendor specification pages; do not open or power-cycle another person\u2019s device.",
+            "steps": [
+              "List the host port\u2019s data, video and charging capabilities.",
+              "List the dock and display requirements.",
+              "Choose a compatible cable and explain why connector shape alone is insufficient."
+            ],
+            "rubric": "Record the three specifications and identify one unsupported assumption."
+          },
+          "briefTitle": "Mobile connectivity and management",
+          "sourcePdfPage": 4
+        },
+        {
+          "id": "c1-2.1",
+          "number": "2.1",
+          "domain": "2.0",
+          "title": "Distinguish transport protocols and ports",
+          "summary": "A port identifies a service endpoint, while the transport protocol determines how data is delivered. A familiar port number is a clue, not proof that a service is safe.",
+          "recall": "Compare DNS resolution with an HTTPS connection, including their different jobs.",
+          "materials": [
+            "messer-1-lesson-007",
+            "messer-1-lesson-008"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=5",
+          "task": {
+            "id": "scenario-1-2.0",
+            "title": "Read a small-network diagram",
+            "scenario": "A client can reach a local printer but cannot open websites by name.",
+            "prerequisites": "Use a paper diagram or isolated lab; do not change a shared router.",
+            "steps": [
+              "Draw client, switch/access point, gateway and DNS service.",
+              "Identify which local reachability observation is already known.",
+              "Propose an address-based test and a name-resolution test; predict each result."
+            ],
+            "rubric": "Your proposed tests distinguish local connectivity, routing and DNS rather than changing all settings."
+          },
+          "briefTitle": "Network protocols and ports",
+          "sourcePdfPage": 5
+        },
+        {
+          "id": "c1-2.2",
+          "number": "2.2",
+          "domain": "2.0",
+          "title": "Explain wireless technologies",
+          "summary": "Radio bands, channel use and obstacles affect wireless performance. Diagnose signal quality and interference before assuming the internet service is slow.",
+          "recall": "Why might a nearby device perform better on a different band?",
+          "materials": [
+            "messer-1-lesson-009"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=5",
+          "task": {
+            "id": "scenario-1-2.0",
+            "title": "Read a small-network diagram",
+            "scenario": "A client can reach a local printer but cannot open websites by name.",
+            "prerequisites": "Use a paper diagram or isolated lab; do not change a shared router.",
+            "steps": [
+              "Draw client, switch/access point, gateway and DNS service.",
+              "Identify which local reachability observation is already known.",
+              "Propose an address-based test and a name-resolution test; predict each result."
+            ],
+            "rubric": "Your proposed tests distinguish local connectivity, routing and DNS rather than changing all settings."
+          },
+          "briefTitle": "Wireless technologies",
+          "sourcePdfPage": 5
+        },
+        {
+          "id": "c1-2.3",
+          "number": "2.3",
+          "domain": "2.0",
+          "title": "Describe network host services",
+          "summary": "DHCP supplies network configuration, DNS translates names and other services support authentication, printing or files. Test the particular service a symptom depends on.",
+          "recall": "What could work if DNS failed, and what would appear broken?",
+          "materials": [
+            "messer-1-lesson-010"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=5",
+          "task": {
+            "id": "scenario-1-2.0",
+            "title": "Read a small-network diagram",
+            "scenario": "A client can reach a local printer but cannot open websites by name.",
+            "prerequisites": "Use a paper diagram or isolated lab; do not change a shared router.",
+            "steps": [
+              "Draw client, switch/access point, gateway and DNS service.",
+              "Identify which local reachability observation is already known.",
+              "Propose an address-based test and a name-resolution test; predict each result."
+            ],
+            "rubric": "Your proposed tests distinguish local connectivity, routing and DNS rather than changing all settings."
+          },
+          "briefTitle": "Services used by clients",
+          "sourcePdfPage": 5
+        },
+        {
+          "id": "c1-2.4",
+          "number": "2.4",
+          "domain": "2.0",
+          "title": "Explain network service configuration",
+          "summary": "DNS records describe names and service locations; DHCP leases and reservations manage client configuration. VLANs separate logical local networks, while VPNs provide protected connectivity across other networks. Each solves a different need.",
+          "recall": "Compare a DNS record, a DHCP reservation, a VLAN and a VPN: what problem does each solve?",
+          "materials": [
+            "messer-1-lesson-011",
+            "messer-1-lesson-012",
+            "messer-1-lesson-013"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=6",
+          "task": {
+            "id": "scenario-1-2.0",
+            "title": "Read a small-network diagram",
+            "scenario": "A client can reach a local printer but cannot open websites by name.",
+            "prerequisites": "Use a paper diagram or isolated lab; do not change a shared router.",
+            "steps": [
+              "Draw client, switch/access point, gateway and DNS service.",
+              "Identify which local reachability observation is already known.",
+              "Propose an address-based test and a name-resolution test; predict each result."
+            ],
+            "rubric": "Your proposed tests distinguish local connectivity, routing and DNS rather than changing all settings."
+          },
+          "briefTitle": "Network addressing and settings",
+          "sourcePdfPage": 6
+        },
+        {
+          "id": "c1-2.5",
+          "number": "2.5",
+          "domain": "2.0",
+          "title": "Compare network equipment",
+          "summary": "Switches move traffic within networks, routers connect networks and access points bridge wireless clients. Many consumer boxes combine these roles in one enclosure.",
+          "recall": "Which role is required when traffic must leave the local subnet?",
+          "materials": [
+            "messer-1-lesson-014"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=6",
+          "task": {
+            "id": "scenario-1-2.0",
+            "title": "Read a small-network diagram",
+            "scenario": "A client can reach a local printer but cannot open websites by name.",
+            "prerequisites": "Use a paper diagram or isolated lab; do not change a shared router.",
+            "steps": [
+              "Draw client, switch/access point, gateway and DNS service.",
+              "Identify which local reachability observation is already known.",
+              "Propose an address-based test and a name-resolution test; predict each result."
+            ],
+            "rubric": "Your proposed tests distinguish local connectivity, routing and DNS rather than changing all settings."
+          },
+          "briefTitle": "Network device roles",
+          "sourcePdfPage": 6
+        },
+        {
+          "id": "c1-2.6",
+          "number": "2.6",
+          "domain": "2.0",
+          "title": "Configure small-office networks",
+          "summary": "A small office network needs addressing, wireless security and administrative controls appropriate to its users. Back up existing settings and plan a rollback before making changes.",
+          "recall": "How would you change Wi-Fi settings without locking everyone out?",
+          "materials": [
+            "messer-1-lesson-015",
+            "messer-1-lesson-016"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=6",
+          "task": {
+            "id": "scenario-1-2.0",
+            "title": "Read a small-network diagram",
+            "scenario": "A client can reach a local printer but cannot open websites by name.",
+            "prerequisites": "Use a paper diagram or isolated lab; do not change a shared router.",
+            "steps": [
+              "Draw client, switch/access point, gateway and DNS service.",
+              "Identify which local reachability observation is already known.",
+              "Propose an address-based test and a name-resolution test; predict each result."
+            ],
+            "rubric": "Your proposed tests distinguish local connectivity, routing and DNS rather than changing all settings."
+          },
+          "briefTitle": "Small-network configuration",
+          "sourcePdfPage": 6
+        },
+        {
+          "id": "c1-2.7",
+          "number": "2.7",
+          "domain": "2.0",
+          "title": "Compare internet links and networks",
+          "summary": "Connection choices differ in availability, latency, shared capacity and last-mile medium. Compare user requirements rather than choosing by advertised download speed alone.",
+          "recall": "When might low latency matter more than peak throughput?",
+          "materials": [
+            "messer-1-lesson-017",
+            "messer-1-lesson-018"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=7",
+          "task": {
+            "id": "scenario-1-2.0",
+            "title": "Read a small-network diagram",
+            "scenario": "A client can reach a local printer but cannot open websites by name.",
+            "prerequisites": "Use a paper diagram or isolated lab; do not change a shared router.",
+            "steps": [
+              "Draw client, switch/access point, gateway and DNS service.",
+              "Identify which local reachability observation is already known.",
+              "Propose an address-based test and a name-resolution test; predict each result."
+            ],
+            "rubric": "Your proposed tests distinguish local connectivity, routing and DNS rather than changing all settings."
+          },
+          "briefTitle": "Internet connection options",
+          "sourcePdfPage": 7
+        },
+        {
+          "id": "c1-2.8",
+          "number": "2.8",
+          "domain": "2.0",
+          "title": "Select network tools",
+          "summary": "A cable tester, tone generator and software diagnostic tool answer different questions. Choose the least disruptive test that can distinguish the suspected faults.",
+          "recall": "Which test can check cable continuity without relying on IP configuration?",
+          "materials": [
+            "messer-1-lesson-019"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=7",
+          "task": {
+            "id": "scenario-1-2.0",
+            "title": "Read a small-network diagram",
+            "scenario": "A client can reach a local printer but cannot open websites by name.",
+            "prerequisites": "Use a paper diagram or isolated lab; do not change a shared router.",
+            "steps": [
+              "Draw client, switch/access point, gateway and DNS service.",
+              "Identify which local reachability observation is already known.",
+              "Propose an address-based test and a name-resolution test; predict each result."
+            ],
+            "rubric": "Your proposed tests distinguish local connectivity, routing and DNS rather than changing all settings."
+          },
+          "briefTitle": "Network diagnostic tools",
+          "sourcePdfPage": 7
+        },
+        {
+          "id": "c1-3.1",
+          "number": "3.1",
+          "domain": "3.0",
+          "title": "Compare display technologies",
+          "summary": "Resolution, refresh rate and panel technology describe different properties. A complete display path also depends on the source, adapter, cable and supported mode.",
+          "recall": "Why might a high-resolution monitor operate at a lower refresh rate than expected?",
+          "materials": [
+            "messer-1-lesson-020",
+            "messer-1-lesson-021"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=8",
+          "task": {
+            "id": "scenario-1-3.0",
+            "title": "Safe upgrade proposal",
+            "scenario": "A desktop needs more memory and storage.",
+            "prerequisites": "Use an example service manual and fictional requirements. Never open a power supply.",
+            "steps": [
+              "Record memory generation/form factor and supported capacity.",
+              "Identify supported storage interface and a data-backup prerequisite.",
+              "Write a parts-compatibility check and a rollback/recovery plan."
+            ],
+            "rubric": "A parts list alone is insufficient: cite compatibility evidence, safety and data protection."
+          },
+          "briefTitle": "Display characteristics",
+          "sourcePdfPage": 8
+        },
+        {
+          "id": "c1-3.2",
+          "number": "3.2",
+          "domain": "3.0",
+          "title": "Identify cables and connectors",
+          "summary": "Physical fit is only one part of compatibility. Check signaling standard, supported distance and cable rating before substituting a cable or adapter.",
+          "recall": "What should you verify besides connector shape when choosing a display cable?",
+          "materials": [
+            "messer-1-lesson-022",
+            "messer-1-lesson-023",
+            "messer-1-lesson-024",
+            "messer-1-lesson-025",
+            "messer-1-lesson-026",
+            "messer-1-lesson-027",
+            "messer-1-lesson-028",
+            "messer-1-lesson-029",
+            "messer-1-lesson-030"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=8",
+          "task": {
+            "id": "scenario-1-3.0",
+            "title": "Safe upgrade proposal",
+            "scenario": "A desktop needs more memory and storage.",
+            "prerequisites": "Use an example service manual and fictional requirements. Never open a power supply.",
+            "steps": [
+              "Record memory generation/form factor and supported capacity.",
+              "Identify supported storage interface and a data-backup prerequisite.",
+              "Write a parts-compatibility check and a rollback/recovery plan."
+            ],
+            "rubric": "A parts list alone is insufficient: cite compatibility evidence, safety and data protection."
+          },
+          "briefTitle": "Cables and connectors",
+          "sourcePdfPage": 8
+        },
+        {
+          "id": "c1-3.3",
+          "number": "3.3",
+          "domain": "3.0",
+          "title": "Compare memory characteristics",
+          "summary": "Memory generation, form factor and platform limits constrain upgrades. Power off and follow electrostatic precautions; a module that fits the slot still needs supported specifications.",
+          "recall": "Why is capacity alone insufficient when selecting replacement RAM?",
+          "materials": [
+            "messer-1-lesson-031",
+            "messer-1-lesson-032"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=8",
+          "task": {
+            "id": "scenario-1-3.0",
+            "title": "Safe upgrade proposal",
+            "scenario": "A desktop needs more memory and storage.",
+            "prerequisites": "Use an example service manual and fictional requirements. Never open a power supply.",
+            "steps": [
+              "Record memory generation/form factor and supported capacity.",
+              "Identify supported storage interface and a data-backup prerequisite.",
+              "Write a parts-compatibility check and a rollback/recovery plan."
+            ],
+            "rubric": "A parts list alone is insufficient: cite compatibility evidence, safety and data protection."
+          },
+          "briefTitle": "Memory compatibility",
+          "sourcePdfPage": 8
+        },
+        {
+          "id": "c1-3.4",
+          "number": "3.4",
+          "domain": "3.0",
+          "title": "Compare storage options",
+          "summary": "Storage performance and reliability depend on medium, interface and workload. RAID can improve availability but does not replace a separate recoverable backup.",
+          "recall": "How do a mirrored array and a backup protect against different failures?",
+          "materials": [
+            "messer-1-lesson-033",
+            "messer-1-lesson-034"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=9",
+          "task": {
+            "id": "scenario-1-3.0",
+            "title": "Safe upgrade proposal",
+            "scenario": "A desktop needs more memory and storage.",
+            "prerequisites": "Use an example service manual and fictional requirements. Never open a power supply.",
+            "steps": [
+              "Record memory generation/form factor and supported capacity.",
+              "Identify supported storage interface and a data-backup prerequisite.",
+              "Write a parts-compatibility check and a rollback/recovery plan."
+            ],
+            "rubric": "A parts list alone is insufficient: cite compatibility evidence, safety and data protection."
+          },
+          "briefTitle": "Storage choices",
+          "sourcePdfPage": 9
+        },
+        {
+          "id": "c1-3.5",
+          "number": "3.5",
+          "domain": "3.0",
+          "title": "Install boards processors and expansions",
+          "summary": "Socket, chipset, firmware and power limits determine a supported platform. Consult compatibility documentation before combining a CPU, memory and board.",
+          "recall": "Why can matching a CPU socket still be insufficient for compatibility?",
+          "materials": [
+            "messer-1-lesson-035",
+            "messer-1-lesson-036",
+            "messer-1-lesson-037",
+            "messer-1-lesson-038",
+            "messer-1-lesson-039",
+            "messer-1-lesson-040",
+            "messer-1-lesson-041",
+            "messer-1-lesson-042",
+            "messer-1-lesson-043",
+            "messer-1-lesson-044"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=9",
+          "task": {
+            "id": "scenario-1-3.0",
+            "title": "Safe upgrade proposal",
+            "scenario": "A desktop needs more memory and storage.",
+            "prerequisites": "Use an example service manual and fictional requirements. Never open a power supply.",
+            "steps": [
+              "Record memory generation/form factor and supported capacity.",
+              "Identify supported storage interface and a data-backup prerequisite.",
+              "Write a parts-compatibility check and a rollback/recovery plan."
+            ],
+            "rubric": "A parts list alone is insufficient: cite compatibility evidence, safety and data protection."
+          },
+          "briefTitle": "Motherboard and processor compatibility",
+          "sourcePdfPage": 9
+        },
+        {
+          "id": "c1-3.6",
+          "number": "3.6",
+          "domain": "3.0",
+          "title": "Select and install power supplies",
+          "summary": "A power supply must provide the appropriate capacity and connectors for its system. Never open a power supply; capacitors can retain dangerous energy after it is unplugged.",
+          "recall": "What documentation would you inspect before replacing a desktop power supply?",
+          "materials": [
+            "messer-1-lesson-045"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=9",
+          "task": {
+            "id": "scenario-1-3.0",
+            "title": "Safe upgrade proposal",
+            "scenario": "A desktop needs more memory and storage.",
+            "prerequisites": "Use an example service manual and fictional requirements. Never open a power supply.",
+            "steps": [
+              "Record memory generation/form factor and supported capacity.",
+              "Identify supported storage interface and a data-backup prerequisite.",
+              "Write a parts-compatibility check and a rollback/recovery plan."
+            ],
+            "rubric": "A parts list alone is insufficient: cite compatibility evidence, safety and data protection."
+          },
+          "briefTitle": "Safe power selection",
+          "sourcePdfPage": 9
+        },
+        {
+          "id": "c1-3.7",
+          "number": "3.7",
+          "domain": "3.0",
+          "title": "Configure printers and multifunction devices",
+          "summary": "Printer and scanner setup includes connectivity, drivers, permissions and workflow. A successful local test page narrows the problem but does not verify every network client.",
+          "recall": "How can a device self-test help separate hardware trouble from host setup?",
+          "materials": [
+            "messer-1-lesson-046"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=10",
+          "task": {
+            "id": "scenario-1-3.0",
+            "title": "Safe upgrade proposal",
+            "scenario": "A desktop needs more memory and storage.",
+            "prerequisites": "Use an example service manual and fictional requirements. Never open a power supply.",
+            "steps": [
+              "Record memory generation/form factor and supported capacity.",
+              "Identify supported storage interface and a data-backup prerequisite.",
+              "Write a parts-compatibility check and a rollback/recovery plan."
+            ],
+            "rubric": "A parts list alone is insufficient: cite compatibility evidence, safety and data protection."
+          },
+          "briefTitle": "Multifunction-device setup",
+          "sourcePdfPage": 10
+        },
+        {
+          "id": "c1-3.8",
+          "number": "3.8",
+          "domain": "3.0",
+          "title": "Maintain printing equipment",
+          "summary": "Printing technologies use different consumables and maintenance procedures. Follow the device manual and allow hot components to cool before authorized service.",
+          "recall": "Why should a laser-printer maintenance procedure not be applied to an inkjet?",
+          "materials": [
+            "messer-1-lesson-047",
+            "messer-1-lesson-048",
+            "messer-1-lesson-049",
+            "messer-1-lesson-050",
+            "messer-1-lesson-051",
+            "messer-1-lesson-052",
+            "messer-1-lesson-053"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=10",
+          "task": {
+            "id": "scenario-1-3.0",
+            "title": "Safe upgrade proposal",
+            "scenario": "A desktop needs more memory and storage.",
+            "prerequisites": "Use an example service manual and fictional requirements. Never open a power supply.",
+            "steps": [
+              "Record memory generation/form factor and supported capacity.",
+              "Identify supported storage interface and a data-backup prerequisite.",
+              "Write a parts-compatibility check and a rollback/recovery plan."
+            ],
+            "rubric": "A parts list alone is insufficient: cite compatibility evidence, safety and data protection."
+          },
+          "briefTitle": "Printer mechanisms and maintenance",
+          "sourcePdfPage": 10
+        },
+        {
+          "id": "c1-4.1",
+          "number": "4.1",
+          "domain": "4.0",
+          "title": "Explain virtualized environments",
+          "summary": "A virtual machine uses virtual hardware managed by a hypervisor. Resource allocation and network isolation still matter; snapshots are useful checkpoints, not independent backups.",
+          "recall": "How could you practice OS changes without risking your everyday workstation?",
+          "materials": [
+            "messer-1-lesson-054",
+            "messer-1-lesson-055"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=11",
+          "task": {
+            "id": "scenario-1-4.0",
+            "title": "Disposable VM planning",
+            "scenario": "You want to explore a new OS without risking daily work.",
+            "prerequisites": "Planning only is valid. If building, use a spare or authorized host, legitimate OS media and no personal data.",
+            "steps": [
+              "List host resource requirements and licensing prerequisites.",
+              "Choose an isolated virtual network and explain its access limits.",
+              "Define a checkpoint plus an independent backup/rebuild plan."
+            ],
+            "rubric": "Distinguish isolation, snapshots and backups; do not claim a snapshot protects against host loss."
+          },
+          "briefTitle": "Virtual machines",
+          "sourcePdfPage": 11
+        },
+        {
+          "id": "c1-4.2",
+          "number": "4.2",
+          "domain": "4.0",
+          "title": "Describe cloud computing models",
+          "summary": "Cloud service models divide provider and customer responsibilities differently. Decide who manages the OS, application and data before comparing services.",
+          "recall": "In SaaS, which responsibilities can still remain with the customer?",
+          "materials": [
+            "messer-1-lesson-056",
+            "messer-1-lesson-057"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=11",
+          "task": {
+            "id": "scenario-1-4.0",
+            "title": "Disposable VM planning",
+            "scenario": "You want to explore a new OS without risking daily work.",
+            "prerequisites": "Planning only is valid. If building, use a spare or authorized host, legitimate OS media and no personal data.",
+            "steps": [
+              "List host resource requirements and licensing prerequisites.",
+              "Choose an isolated virtual network and explain its access limits.",
+              "Define a checkpoint plus an independent backup/rebuild plan."
+            ],
+            "rubric": "Distinguish isolation, snapshots and backups; do not claim a snapshot protects against host loss."
+          },
+          "briefTitle": "Cloud service responsibilities",
+          "sourcePdfPage": 11
+        },
+        {
+          "id": "c1-5.1",
+          "number": "5.1",
+          "domain": "5.0",
+          "title": "Diagnose mainboard memory processor power",
+          "summary": "Start with the reported symptom and observable evidence. Preserve data, inspect power and connections safely, then test one plausible cause at a time.",
+          "recall": "What observation would make you stop troubleshooting and escalate a safety risk?",
+          "materials": [
+            "messer-1-lesson-058"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=12",
+          "task": {
+            "id": "scenario-1-5.0",
+            "title": "Evidence-first hardware ticket",
+            "scenario": "A fictional workstation intermittently loses its display.",
+            "prerequisites": "Use a tabletop scenario; no opening powered devices.",
+            "steps": [
+              "Record symptom, frequency, recent changes and safety concerns.",
+              "List two competing causes and one controlled test per cause.",
+              "State expected observations, stop conditions and how success would be confirmed."
+            ],
+            "rubric": "Each test changes one variable and has a predicted result. Preserve data and stop for hazards."
+          },
+          "briefTitle": "Hardware diagnosis",
+          "sourcePdfPage": 12
+        },
+        {
+          "id": "c1-5.2",
+          "number": "5.2",
+          "domain": "5.0",
+          "title": "Diagnose storage and RAID faults",
+          "summary": "New noises, errors and missing files can indicate different storage faults. Prioritize protecting important data and avoid repeated stress on a failing device.",
+          "recall": "Why might a backup or professional recovery decision come before an intensive disk test?",
+          "materials": [
+            "messer-1-lesson-059"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=12",
+          "task": {
+            "id": "scenario-1-5.0",
+            "title": "Evidence-first hardware ticket",
+            "scenario": "A fictional workstation intermittently loses its display.",
+            "prerequisites": "Use a tabletop scenario; no opening powered devices.",
+            "steps": [
+              "Record symptom, frequency, recent changes and safety concerns.",
+              "List two competing causes and one controlled test per cause.",
+              "State expected observations, stop conditions and how success would be confirmed."
+            ],
+            "rubric": "Each test changes one variable and has a predicted result. Preserve data and stop for hazards."
+          },
+          "briefTitle": "Storage diagnosis",
+          "sourcePdfPage": 12
+        },
+        {
+          "id": "c1-5.3",
+          "number": "5.3",
+          "domain": "5.0",
+          "title": "Resolve display and projector faults",
+          "summary": "Compare the monitor self-test, input selection, cable and another known-good display path. Change one component at a time so the result remains interpretable.",
+          "recall": "What does an operating monitor menu tell you about a black-screen complaint?",
+          "materials": [
+            "messer-1-lesson-060"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=12",
+          "task": {
+            "id": "scenario-1-5.0",
+            "title": "Evidence-first hardware ticket",
+            "scenario": "A fictional workstation intermittently loses its display.",
+            "prerequisites": "Use a tabletop scenario; no opening powered devices.",
+            "steps": [
+              "Record symptom, frequency, recent changes and safety concerns.",
+              "List two competing causes and one controlled test per cause.",
+              "State expected observations, stop conditions and how success would be confirmed."
+            ],
+            "rubric": "Each test changes one variable and has a predicted result. Preserve data and stop for hazards."
+          },
+          "briefTitle": "Display diagnosis",
+          "sourcePdfPage": 12
+        },
+        {
+          "id": "c1-5.4",
+          "number": "5.4",
+          "domain": "5.0",
+          "title": "Resolve mobile hardware faults",
+          "summary": "Battery, thermal, application and connectivity symptoms can overlap. Look for damage and unsafe battery conditions before attempting resets or software changes.",
+          "recall": "What should you do if a phone battery is visibly swelling?",
+          "materials": [
+            "messer-1-lesson-061"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=12",
+          "task": {
+            "id": "scenario-1-5.0",
+            "title": "Evidence-first hardware ticket",
+            "scenario": "A fictional workstation intermittently loses its display.",
+            "prerequisites": "Use a tabletop scenario; no opening powered devices.",
+            "steps": [
+              "Record symptom, frequency, recent changes and safety concerns.",
+              "List two competing causes and one controlled test per cause.",
+              "State expected observations, stop conditions and how success would be confirmed."
+            ],
+            "rubric": "Each test changes one variable and has a predicted result. Preserve data and stop for hazards."
+          },
+          "briefTitle": "Mobile-device diagnosis",
+          "sourcePdfPage": 12
+        },
+        {
+          "id": "c1-5.5",
+          "number": "5.5",
+          "domain": "5.0",
+          "title": "Resolve network connectivity faults",
+          "summary": "Separate physical link, local configuration, routing and name resolution. Test a known address and a hostname to avoid treating every symptom as a Wi-Fi problem.",
+          "recall": "What evidence supports a DNS fault when local connectivity is working?",
+          "materials": [
+            "messer-1-lesson-062"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=13",
+          "task": {
+            "id": "scenario-1-5.0",
+            "title": "Evidence-first hardware ticket",
+            "scenario": "A fictional workstation intermittently loses its display.",
+            "prerequisites": "Use a tabletop scenario; no opening powered devices.",
+            "steps": [
+              "Record symptom, frequency, recent changes and safety concerns.",
+              "List two competing causes and one controlled test per cause.",
+              "State expected observations, stop conditions and how success would be confirmed."
+            ],
+            "rubric": "Each test changes one variable and has a predicted result. Preserve data and stop for hazards."
+          },
+          "briefTitle": "Network diagnosis",
+          "sourcePdfPage": 13
+        },
+        {
+          "id": "c1-5.6",
+          "number": "5.6",
+          "domain": "5.0",
+          "title": "Diagnose printing faults",
+          "summary": "Distinguish device, media, queue and connectivity faults. A controlled test page and the device status can narrow the scope before reinstalling software.",
+          "recall": "What would you compare when only one workstation cannot print?",
+          "materials": [
+            "messer-1-lesson-063"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/34be017cb73211ef8985a6f347fbf652#page=13",
+          "task": {
+            "id": "scenario-1-5.0",
+            "title": "Evidence-first hardware ticket",
+            "scenario": "A fictional workstation intermittently loses its display.",
+            "prerequisites": "Use a tabletop scenario; no opening powered devices.",
+            "steps": [
+              "Record symptom, frequency, recent changes and safety concerns.",
+              "List two competing causes and one controlled test per cause.",
+              "State expected observations, stop conditions and how success would be confirmed."
+            ],
+            "rubric": "Each test changes one variable and has a predicted result. Preserve data and stop for hazards."
+          },
+          "briefTitle": "Printer diagnosis",
+          "sourcePdfPage": 13
+        }
+      ]
+    },
+    {
+      "id": "core2",
+      "label": "Core 2",
+      "code": "220-1202",
+      "objectivesUrl": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538",
+      "courseUrl": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/220-1202-training-course/",
+      "domains": [
+        {
+          "number": "1.0",
+          "title": "Operating Systems",
+          "weight": 28
+        },
+        {
+          "number": "2.0",
+          "title": "Security",
+          "weight": 28
+        },
+        {
+          "number": "3.0",
+          "title": "Software Troubleshooting",
+          "weight": 23
+        },
+        {
+          "number": "4.0",
+          "title": "Operational Procedures",
+          "weight": 21
+        }
+      ],
+      "objectives": [
+        {
+          "id": "c2-1.1",
+          "number": "1.1",
+          "domain": "1.0",
+          "title": "Compare operating-system purposes",
+          "summary": "Select an operating system for application support, hardware needs, licensing and lifecycle. A familiar interface alone does not establish compatibility or support.",
+          "recall": "Which requirements would you gather before recommending an OS?",
+          "materials": [
+            "messer-2-lesson-001",
+            "messer-2-lesson-002"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=4",
+          "task": {
+            "id": "scenario-2-1.0",
+            "title": "Read-only OS evidence collection",
+            "scenario": "A fictional PC is slow after sign-in.",
+            "prerequisites": "Use a disposable VM or screenshots with synthetic data. No cleanup, installs or administrative changes required.",
+            "steps": [
+              "Record OS version and scope: one user, one app or the whole system.",
+              "Inspect a read-only process/resource or event view.",
+              "Write two hypotheses supported or contradicted by the observed data."
+            ],
+            "rubric": "Include tool, observation and reasoning; do not expose usernames, paths or real documents."
+          },
+          "briefTitle": "Choosing operating systems",
+          "sourcePdfPage": 4
+        },
+        {
+          "id": "c2-1.2",
+          "number": "1.2",
+          "domain": "1.0",
+          "title": "Install and upgrade operating systems",
+          "summary": "Installation can overwrite partitions and data. Verify recovery media, licensing, hardware support and a tested backup before any authorized change.",
+          "recall": "How would you confirm an installation plan is recoverable?",
+          "materials": [
+            "messer-2-lesson-003",
+            "messer-2-lesson-004"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=4",
+          "task": {
+            "id": "scenario-2-1.0",
+            "title": "Read-only OS evidence collection",
+            "scenario": "A fictional PC is slow after sign-in.",
+            "prerequisites": "Use a disposable VM or screenshots with synthetic data. No cleanup, installs or administrative changes required.",
+            "steps": [
+              "Record OS version and scope: one user, one app or the whole system.",
+              "Inspect a read-only process/resource or event view.",
+              "Write two hypotheses supported or contradicted by the observed data."
+            ],
+            "rubric": "Include tool, observation and reasoning; do not expose usernames, paths or real documents."
+          },
+          "briefTitle": "Planning OS installation",
+          "sourcePdfPage": 4
+        },
+        {
+          "id": "c2-1.3",
+          "number": "1.3",
+          "domain": "1.0",
+          "title": "Compare Windows editions",
+          "summary": "Windows editions differ in management and feature support. Verify the exact edition and supported lifecycle rather than assuming every device exposes the same controls.",
+          "recall": "Why might an organizational feature be unavailable on a personal Windows edition?",
+          "materials": [
+            "messer-2-lesson-005",
+            "messer-2-lesson-006"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=4",
+          "task": {
+            "id": "scenario-2-1.0",
+            "title": "Read-only OS evidence collection",
+            "scenario": "A fictional PC is slow after sign-in.",
+            "prerequisites": "Use a disposable VM or screenshots with synthetic data. No cleanup, installs or administrative changes required.",
+            "steps": [
+              "Record OS version and scope: one user, one app or the whole system.",
+              "Inspect a read-only process/resource or event view.",
+              "Write two hypotheses supported or contradicted by the observed data."
+            ],
+            "rubric": "Include tool, observation and reasoning; do not expose usernames, paths or real documents."
+          },
+          "briefTitle": "Windows editions and capabilities",
+          "sourcePdfPage": 4
+        },
+        {
+          "id": "c2-1.4",
+          "number": "1.4",
+          "domain": "1.0",
+          "title": "Use Windows administration utilities",
+          "summary": "System tools expose performance, hardware, events and configuration from different viewpoints. Use a read-only observation first and record the tool and time.",
+          "recall": "Which evidence would you gather before changing a device driver?",
+          "materials": [
+            "messer-2-lesson-007",
+            "messer-2-lesson-008",
+            "messer-2-lesson-009"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=5",
+          "task": {
+            "id": "scenario-2-1.0",
+            "title": "Read-only OS evidence collection",
+            "scenario": "A fictional PC is slow after sign-in.",
+            "prerequisites": "Use a disposable VM or screenshots with synthetic data. No cleanup, installs or administrative changes required.",
+            "steps": [
+              "Record OS version and scope: one user, one app or the whole system.",
+              "Inspect a read-only process/resource or event view.",
+              "Write two hypotheses supported or contradicted by the observed data."
+            ],
+            "rubric": "Include tool, observation and reasoning; do not expose usernames, paths or real documents."
+          },
+          "briefTitle": "Windows management tools",
+          "sourcePdfPage": 5
+        },
+        {
+          "id": "c2-1.5",
+          "number": "1.5",
+          "domain": "1.0",
+          "title": "Apply Windows command-line tools",
+          "summary": "Commands have scope, parameters and privilege requirements. Understand the proposed effect before running anything, especially commands that delete or repair data.",
+          "recall": "How would you tell a diagnostic command from a destructive operation?",
+          "materials": [
+            "messer-2-lesson-010",
+            "messer-2-lesson-011"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=5",
+          "task": {
+            "id": "scenario-2-1.0",
+            "title": "Read-only OS evidence collection",
+            "scenario": "A fictional PC is slow after sign-in.",
+            "prerequisites": "Use a disposable VM or screenshots with synthetic data. No cleanup, installs or administrative changes required.",
+            "steps": [
+              "Record OS version and scope: one user, one app or the whole system.",
+              "Inspect a read-only process/resource or event view.",
+              "Write two hypotheses supported or contradicted by the observed data."
+            ],
+            "rubric": "Include tool, observation and reasoning; do not expose usernames, paths or real documents."
+          },
+          "briefTitle": "Windows command-line reasoning",
+          "sourcePdfPage": 5
+        },
+        {
+          "id": "c2-1.6",
+          "number": "1.6",
+          "domain": "1.0",
+          "title": "Adjust Windows configuration",
+          "summary": "Settings organize device, user and system configuration. Document existing values and confirm the correct account and scope before changing them.",
+          "recall": "Why should you distinguish a per-user setting from a device-wide setting?",
+          "materials": [
+            "messer-2-lesson-012",
+            "messer-2-lesson-013"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=5",
+          "task": {
+            "id": "scenario-2-1.0",
+            "title": "Read-only OS evidence collection",
+            "scenario": "A fictional PC is slow after sign-in.",
+            "prerequisites": "Use a disposable VM or screenshots with synthetic data. No cleanup, installs or administrative changes required.",
+            "steps": [
+              "Record OS version and scope: one user, one app or the whole system.",
+              "Inspect a read-only process/resource or event view.",
+              "Write two hypotheses supported or contradicted by the observed data."
+            ],
+            "rubric": "Include tool, observation and reasoning; do not expose usernames, paths or real documents."
+          },
+          "briefTitle": "Windows settings",
+          "sourcePdfPage": 5
+        },
+        {
+          "id": "c2-1.7",
+          "number": "1.7",
+          "domain": "1.0",
+          "title": "Configure Windows client networking",
+          "summary": "Client configuration, sharing permissions and network classification all affect access. Confirm addressing and identity before loosening firewall or sharing settings.",
+          "recall": "What could explain access working for one user but not another?",
+          "materials": [
+            "messer-2-lesson-014",
+            "messer-2-lesson-015",
+            "messer-2-lesson-016",
+            "messer-2-lesson-017"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=6",
+          "task": {
+            "id": "scenario-2-1.0",
+            "title": "Read-only OS evidence collection",
+            "scenario": "A fictional PC is slow after sign-in.",
+            "prerequisites": "Use a disposable VM or screenshots with synthetic data. No cleanup, installs or administrative changes required.",
+            "steps": [
+              "Record OS version and scope: one user, one app or the whole system.",
+              "Inspect a read-only process/resource or event view.",
+              "Write two hypotheses supported or contradicted by the observed data."
+            ],
+            "rubric": "Include tool, observation and reasoning; do not expose usernames, paths or real documents."
+          },
+          "briefTitle": "Windows networking",
+          "sourcePdfPage": 6
+        },
+        {
+          "id": "c2-1.8",
+          "number": "1.8",
+          "domain": "1.0",
+          "title": "Use macOS desktop features",
+          "summary": "macOS support uses its own settings, utilities and permission model. Distinguish local settings from managed restrictions and use version-appropriate documentation.",
+          "recall": "What context would you collect before giving macOS troubleshooting instructions?",
+          "materials": [
+            "messer-2-lesson-018",
+            "messer-2-lesson-019",
+            "messer-2-lesson-020"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=6",
+          "task": {
+            "id": "scenario-2-1.0",
+            "title": "Read-only OS evidence collection",
+            "scenario": "A fictional PC is slow after sign-in.",
+            "prerequisites": "Use a disposable VM or screenshots with synthetic data. No cleanup, installs or administrative changes required.",
+            "steps": [
+              "Record OS version and scope: one user, one app or the whole system.",
+              "Inspect a read-only process/resource or event view.",
+              "Write two hypotheses supported or contradicted by the observed data."
+            ],
+            "rubric": "Include tool, observation and reasoning; do not expose usernames, paths or real documents."
+          },
+          "briefTitle": "macOS support",
+          "sourcePdfPage": 6
+        },
+        {
+          "id": "c2-1.9",
+          "number": "1.9",
+          "domain": "1.0",
+          "title": "Recognize Linux desktop tools",
+          "summary": "Linux distributions share concepts but differ in tools and packaging. Paths, permissions and privilege determine what a process can access.",
+          "recall": "Why is running every command as an administrator a poor diagnostic default?",
+          "materials": [
+            "messer-2-lesson-021",
+            "messer-2-lesson-022",
+            "messer-2-lesson-023"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=7",
+          "task": {
+            "id": "scenario-2-1.0",
+            "title": "Read-only OS evidence collection",
+            "scenario": "A fictional PC is slow after sign-in.",
+            "prerequisites": "Use a disposable VM or screenshots with synthetic data. No cleanup, installs or administrative changes required.",
+            "steps": [
+              "Record OS version and scope: one user, one app or the whole system.",
+              "Inspect a read-only process/resource or event view.",
+              "Write two hypotheses supported or contradicted by the observed data."
+            ],
+            "rubric": "Include tool, observation and reasoning; do not expose usernames, paths or real documents."
+          },
+          "briefTitle": "Linux support",
+          "sourcePdfPage": 7
+        },
+        {
+          "id": "c2-1.10",
+          "number": "1.10",
+          "domain": "1.0",
+          "title": "Install applications to requirements",
+          "summary": "Applications require compatible architecture, OS support and sufficient resources. Obtain software from an authorized source and evaluate requested privileges.",
+          "recall": "Which checks help prevent installing the wrong or untrusted package?",
+          "materials": [
+            "messer-2-lesson-024"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=7",
+          "task": {
+            "id": "scenario-2-1.0",
+            "title": "Read-only OS evidence collection",
+            "scenario": "A fictional PC is slow after sign-in.",
+            "prerequisites": "Use a disposable VM or screenshots with synthetic data. No cleanup, installs or administrative changes required.",
+            "steps": [
+              "Record OS version and scope: one user, one app or the whole system.",
+              "Inspect a read-only process/resource or event view.",
+              "Write two hypotheses supported or contradicted by the observed data."
+            ],
+            "rubric": "Include tool, observation and reasoning; do not expose usernames, paths or real documents."
+          },
+          "briefTitle": "Application installation",
+          "sourcePdfPage": 7
+        },
+        {
+          "id": "c2-1.11",
+          "number": "1.11",
+          "domain": "1.0",
+          "title": "Configure cloud productivity applications",
+          "summary": "Synchronized productivity tools depend on accounts, connectivity and permissions. Synchronization is not automatically an independent backup or a guarantee of offline access.",
+          "recall": "How would you check whether a document is available offline without assuming it?",
+          "materials": [
+            "messer-2-lesson-025"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=7",
+          "task": {
+            "id": "scenario-2-1.0",
+            "title": "Read-only OS evidence collection",
+            "scenario": "A fictional PC is slow after sign-in.",
+            "prerequisites": "Use a disposable VM or screenshots with synthetic data. No cleanup, installs or administrative changes required.",
+            "steps": [
+              "Record OS version and scope: one user, one app or the whole system.",
+              "Inspect a read-only process/resource or event view.",
+              "Write two hypotheses supported or contradicted by the observed data."
+            ],
+            "rubric": "Include tool, observation and reasoning; do not expose usernames, paths or real documents."
+          },
+          "briefTitle": "Cloud productivity",
+          "sourcePdfPage": 7
+        },
+        {
+          "id": "c2-2.1",
+          "number": "2.1",
+          "domain": "2.0",
+          "title": "Explain protective controls",
+          "summary": "Physical access, identity, authorization and monitoring protect different boundaries. Combine controls so a failure in one layer does not expose everything.",
+          "recall": "How do authentication and authorization answer different questions?",
+          "materials": [
+            "messer-2-lesson-026",
+            "messer-2-lesson-027",
+            "messer-2-lesson-028",
+            "messer-2-lesson-029"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=8",
+          "task": {
+            "id": "scenario-2-2.0",
+            "title": "Least-privilege incident worksheet",
+            "scenario": "A message asks a staff member to install a remote tool urgently.",
+            "prerequisites": "Use a fictional message. Do not open suspicious links or run any downloaded file.",
+            "steps": [
+              "Identify urgency and identity claims that need independent verification.",
+              "Write a safe verification and containment response.",
+              "List the least privileges and approval needed for any legitimate support session."
+            ],
+            "rubric": "Verify through a separately known channel; never provide credentials or install the tool to test the message."
+          },
+          "briefTitle": "Layered security controls",
+          "sourcePdfPage": 8
+        },
+        {
+          "id": "c2-2.2",
+          "number": "2.2",
+          "domain": "2.0",
+          "title": "Apply Windows security controls",
+          "summary": "Account privileges and permissions should match actual work needs. Confirm effective access and avoid granting broad administrative rights to solve one access failure.",
+          "recall": "How would least privilege change your response to a permissions complaint?",
+          "materials": [
+            "messer-2-lesson-030",
+            "messer-2-lesson-031",
+            "messer-2-lesson-032",
+            "messer-2-lesson-033"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=8",
+          "task": {
+            "id": "scenario-2-2.0",
+            "title": "Least-privilege incident worksheet",
+            "scenario": "A message asks a staff member to install a remote tool urgently.",
+            "prerequisites": "Use a fictional message. Do not open suspicious links or run any downloaded file.",
+            "steps": [
+              "Identify urgency and identity claims that need independent verification.",
+              "Write a safe verification and containment response.",
+              "List the least privileges and approval needed for any legitimate support session."
+            ],
+            "rubric": "Verify through a separately known channel; never provide credentials or install the tool to test the message."
+          },
+          "briefTitle": "Windows account security",
+          "sourcePdfPage": 8
+        },
+        {
+          "id": "c2-2.3",
+          "number": "2.3",
+          "domain": "2.0",
+          "title": "Compare wireless authentication and protection",
+          "summary": "Wireless authentication and encryption protect different parts of access. Use current supported security and unique credentials; hiding a network name is not a substitute.",
+          "recall": "Why does changing an SSID not secure a weak wireless password?",
+          "materials": [
+            "messer-2-lesson-034",
+            "messer-2-lesson-035"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=9",
+          "task": {
+            "id": "scenario-2-2.0",
+            "title": "Least-privilege incident worksheet",
+            "scenario": "A message asks a staff member to install a remote tool urgently.",
+            "prerequisites": "Use a fictional message. Do not open suspicious links or run any downloaded file.",
+            "steps": [
+              "Identify urgency and identity claims that need independent verification.",
+              "Write a safe verification and containment response.",
+              "List the least privileges and approval needed for any legitimate support session."
+            ],
+            "rubric": "Verify through a separately known channel; never provide credentials or install the tool to test the message."
+          },
+          "briefTitle": "Wireless security choices",
+          "sourcePdfPage": 9
+        },
+        {
+          "id": "c2-2.4",
+          "number": "2.4",
+          "domain": "2.0",
+          "title": "Identify malware and countermeasures",
+          "summary": "Malware behavior can include persistence, theft or disruption. Suspicious symptoms justify containment and evidence collection, not guessing a malware name from one symptom.",
+          "recall": "What would make you isolate a device before continuing normal use?",
+          "materials": [
+            "messer-2-lesson-036",
+            "messer-2-lesson-037"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=9",
+          "task": {
+            "id": "scenario-2-2.0",
+            "title": "Least-privilege incident worksheet",
+            "scenario": "A message asks a staff member to install a remote tool urgently.",
+            "prerequisites": "Use a fictional message. Do not open suspicious links or run any downloaded file.",
+            "steps": [
+              "Identify urgency and identity claims that need independent verification.",
+              "Write a safe verification and containment response.",
+              "List the least privileges and approval needed for any legitimate support session."
+            ],
+            "rubric": "Verify through a separately known channel; never provide credentials or install the tool to test the message."
+          },
+          "briefTitle": "Recognizing malware",
+          "sourcePdfPage": 9
+        },
+        {
+          "id": "c2-2.5",
+          "number": "2.5",
+          "domain": "2.0",
+          "title": "Distinguish attacks threats and weaknesses",
+          "summary": "Attackers exploit trust and urgency as well as technical weaknesses. Verify sensitive requests through an independently known contact method.",
+          "recall": "Why is replying to a suspicious message a weak way to verify its sender?",
+          "materials": [
+            "messer-2-lesson-038",
+            "messer-2-lesson-039",
+            "messer-2-lesson-040",
+            "messer-2-lesson-041",
+            "messer-2-lesson-042",
+            "messer-2-lesson-043",
+            "messer-2-lesson-044",
+            "messer-2-lesson-045",
+            "messer-2-lesson-046",
+            "messer-2-lesson-047",
+            "messer-2-lesson-048"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=9",
+          "task": {
+            "id": "scenario-2-2.0",
+            "title": "Least-privilege incident worksheet",
+            "scenario": "A message asks a staff member to install a remote tool urgently.",
+            "prerequisites": "Use a fictional message. Do not open suspicious links or run any downloaded file.",
+            "steps": [
+              "Identify urgency and identity claims that need independent verification.",
+              "Write a safe verification and containment response.",
+              "List the least privileges and approval needed for any legitimate support session."
+            ],
+            "rubric": "Verify through a separately known channel; never provide credentials or install the tool to test the message."
+          },
+          "briefTitle": "Social engineering",
+          "sourcePdfPage": 9
+        },
+        {
+          "id": "c2-2.6",
+          "number": "2.6",
+          "domain": "2.0",
+          "title": "Remove small-office malware",
+          "summary": "Follow approved incident procedures and protect evidence. Containment, remediation and verification are separate stages; avoid running unknown cleanup utilities.",
+          "recall": "What would you verify before returning a remediated machine to use?",
+          "materials": [
+            "messer-2-lesson-049"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=10",
+          "task": {
+            "id": "scenario-2-2.0",
+            "title": "Least-privilege incident worksheet",
+            "scenario": "A message asks a staff member to install a remote tool urgently.",
+            "prerequisites": "Use a fictional message. Do not open suspicious links or run any downloaded file.",
+            "steps": [
+              "Identify urgency and identity claims that need independent verification.",
+              "Write a safe verification and containment response.",
+              "List the least privileges and approval needed for any legitimate support session."
+            ],
+            "rubric": "Verify through a separately known channel; never provide credentials or install the tool to test the message."
+          },
+          "briefTitle": "Responding to malware",
+          "sourcePdfPage": 10
+        },
+        {
+          "id": "c2-2.7",
+          "number": "2.7",
+          "domain": "2.0",
+          "title": "Harden workstation security",
+          "summary": "Updates, least privilege, strong authentication and backups reduce different risks. A control is useful only when configured, maintained and appropriate for the device.",
+          "recall": "Which controls reduce harm if a password is stolen?",
+          "materials": [
+            "messer-2-lesson-050"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=10",
+          "task": {
+            "id": "scenario-2-2.0",
+            "title": "Least-privilege incident worksheet",
+            "scenario": "A message asks a staff member to install a remote tool urgently.",
+            "prerequisites": "Use a fictional message. Do not open suspicious links or run any downloaded file.",
+            "steps": [
+              "Identify urgency and identity claims that need independent verification.",
+              "Write a safe verification and containment response.",
+              "List the least privileges and approval needed for any legitimate support session."
+            ],
+            "rubric": "Verify through a separately known channel; never provide credentials or install the tool to test the message."
+          },
+          "briefTitle": "Endpoint security habits",
+          "sourcePdfPage": 10
+        },
+        {
+          "id": "c2-2.8",
+          "number": "2.8",
+          "domain": "2.0",
+          "title": "Protect mobile devices",
+          "summary": "Screen locks, encryption, updates and management policies protect mobile information. A lost corporate device may require an incident response rather than personal troubleshooting.",
+          "recall": "What should you establish before remotely wiping a device?",
+          "materials": [
+            "messer-2-lesson-051"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=10",
+          "task": {
+            "id": "scenario-2-2.0",
+            "title": "Least-privilege incident worksheet",
+            "scenario": "A message asks a staff member to install a remote tool urgently.",
+            "prerequisites": "Use a fictional message. Do not open suspicious links or run any downloaded file.",
+            "steps": [
+              "Identify urgency and identity claims that need independent verification.",
+              "Write a safe verification and containment response.",
+              "List the least privileges and approval needed for any legitimate support session."
+            ],
+            "rubric": "Verify through a separately known channel; never provide credentials or install the tool to test the message."
+          },
+          "briefTitle": "Mobile-device protection",
+          "sourcePdfPage": 10
+        },
+        {
+          "id": "c2-2.9",
+          "number": "2.9",
+          "domain": "2.0",
+          "title": "Compare secure data disposal",
+          "summary": "Deletion, formatting, secure erasure and physical destruction provide different assurances. Match the method to media type, policy and required evidence.",
+          "recall": "Why might deleting files be insufficient before disposing of storage?",
+          "materials": [
+            "messer-2-lesson-052"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=10",
+          "task": {
+            "id": "scenario-2-2.0",
+            "title": "Least-privilege incident worksheet",
+            "scenario": "A message asks a staff member to install a remote tool urgently.",
+            "prerequisites": "Use a fictional message. Do not open suspicious links or run any downloaded file.",
+            "steps": [
+              "Identify urgency and identity claims that need independent verification.",
+              "Write a safe verification and containment response.",
+              "List the least privileges and approval needed for any legitimate support session."
+            ],
+            "rubric": "Verify through a separately known channel; never provide credentials or install the tool to test the message."
+          },
+          "briefTitle": "Data disposal",
+          "sourcePdfPage": 10
+        },
+        {
+          "id": "c2-2.10",
+          "number": "2.10",
+          "domain": "2.0",
+          "title": "Secure small-office networks",
+          "summary": "Secure management access, update firmware and review exposed services. Preserve a rollback path and avoid publishing administrative interfaces to the internet.",
+          "recall": "Which remote-management settings would you inspect on a router?",
+          "materials": [
+            "messer-2-lesson-053"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=11",
+          "task": {
+            "id": "scenario-2-2.0",
+            "title": "Least-privilege incident worksheet",
+            "scenario": "A message asks a staff member to install a remote tool urgently.",
+            "prerequisites": "Use a fictional message. Do not open suspicious links or run any downloaded file.",
+            "steps": [
+              "Identify urgency and identity claims that need independent verification.",
+              "Write a safe verification and containment response.",
+              "List the least privileges and approval needed for any legitimate support session."
+            ],
+            "rubric": "Verify through a separately known channel; never provide credentials or install the tool to test the message."
+          },
+          "briefTitle": "Small-office security",
+          "sourcePdfPage": 11
+        },
+        {
+          "id": "c2-2.11",
+          "number": "2.11",
+          "domain": "2.0",
+          "title": "Configure browser protections",
+          "summary": "Browsers manage site permissions, stored information and extensions. Review unneeded privileges and distinguish a site problem from a compromised extension.",
+          "recall": "Why should an extension request only the permissions it needs?",
+          "materials": [
+            "messer-2-lesson-054"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=11",
+          "task": {
+            "id": "scenario-2-2.0",
+            "title": "Least-privilege incident worksheet",
+            "scenario": "A message asks a staff member to install a remote tool urgently.",
+            "prerequisites": "Use a fictional message. Do not open suspicious links or run any downloaded file.",
+            "steps": [
+              "Identify urgency and identity claims that need independent verification.",
+              "Write a safe verification and containment response.",
+              "List the least privileges and approval needed for any legitimate support session."
+            ],
+            "rubric": "Verify through a separately known channel; never provide credentials or install the tool to test the message."
+          },
+          "briefTitle": "Browser security",
+          "sourcePdfPage": 11
+        },
+        {
+          "id": "c2-3.1",
+          "number": "3.1",
+          "domain": "3.0",
+          "title": "Resolve Windows operating-system faults",
+          "summary": "Scope the fault, collect event and resource evidence, and identify recent changes. Reversible targeted steps preserve more evidence than immediately resetting the system.",
+          "recall": "What information would you record before trying a startup repair?",
+          "materials": [
+            "messer-2-lesson-055"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=12",
+          "task": {
+            "id": "scenario-2-3.0",
+            "title": "Software troubleshooting decision record",
+            "scenario": "A fictional app crashes after an update, while other applications work.",
+            "prerequisites": "Use a tabletop scenario or disposable VM. Preserve data before any change.",
+            "steps": [
+              "Define scope, recent change and useful logs without personal content.",
+              "Propose the least disruptive reversible test.",
+              "Record expected evidence, recovery plan and how the user would confirm resolution."
+            ],
+            "rubric": "Separate hypothesis from fact and avoid deleting application data as a first step."
+          },
+          "briefTitle": "Windows troubleshooting",
+          "sourcePdfPage": 12
+        },
+        {
+          "id": "c2-3.2",
+          "number": "3.2",
+          "domain": "3.0",
+          "title": "Resolve mobile software faults",
+          "summary": "Storage pressure, updates, settings and application faults can produce similar symptoms. Check scope and recent changes before clearing data or resetting a device.",
+          "recall": "What could be lost if an application is reinstalled without checking synchronization?",
+          "materials": [
+            "messer-2-lesson-056"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=12",
+          "task": {
+            "id": "scenario-2-3.0",
+            "title": "Software troubleshooting decision record",
+            "scenario": "A fictional app crashes after an update, while other applications work.",
+            "prerequisites": "Use a tabletop scenario or disposable VM. Preserve data before any change.",
+            "steps": [
+              "Define scope, recent change and useful logs without personal content.",
+              "Propose the least disruptive reversible test.",
+              "Record expected evidence, recovery plan and how the user would confirm resolution."
+            ],
+            "rubric": "Separate hypothesis from fact and avoid deleting application data as a first step."
+          },
+          "briefTitle": "Mobile OS and application troubleshooting",
+          "sourcePdfPage": 12
+        },
+        {
+          "id": "c2-3.3",
+          "number": "3.3",
+          "domain": "3.0",
+          "title": "Investigate mobile security symptoms",
+          "summary": "Unexpected permissions, account activity or management changes need careful investigation. Preserve evidence and follow the owner\u2019s incident process.",
+          "recall": "When does a mobile symptom require security escalation rather than an ordinary restart?",
+          "materials": [
+            "messer-2-lesson-057"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=12",
+          "task": {
+            "id": "scenario-2-3.0",
+            "title": "Software troubleshooting decision record",
+            "scenario": "A fictional app crashes after an update, while other applications work.",
+            "prerequisites": "Use a tabletop scenario or disposable VM. Preserve data before any change.",
+            "steps": [
+              "Define scope, recent change and useful logs without personal content.",
+              "Propose the least disruptive reversible test.",
+              "Record expected evidence, recovery plan and how the user would confirm resolution."
+            ],
+            "rubric": "Separate hypothesis from fact and avoid deleting application data as a first step."
+          },
+          "briefTitle": "Mobile security troubleshooting",
+          "sourcePdfPage": 12
+        },
+        {
+          "id": "c2-3.4",
+          "number": "3.4",
+          "domain": "3.0",
+          "title": "Investigate computer security symptoms",
+          "summary": "Distinguish security warnings, malicious activity and configuration errors using evidence. Contain active risk and consult approved procedures before broad remediation.",
+          "recall": "What would you record when a browser repeatedly redirects to unexpected sites?",
+          "materials": [
+            "messer-2-lesson-058"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=12",
+          "task": {
+            "id": "scenario-2-3.0",
+            "title": "Software troubleshooting decision record",
+            "scenario": "A fictional app crashes after an update, while other applications work.",
+            "prerequisites": "Use a tabletop scenario or disposable VM. Preserve data before any change.",
+            "steps": [
+              "Define scope, recent change and useful logs without personal content.",
+              "Propose the least disruptive reversible test.",
+              "Record expected evidence, recovery plan and how the user would confirm resolution."
+            ],
+            "rubric": "Separate hypothesis from fact and avoid deleting application data as a first step."
+          },
+          "briefTitle": "Security-issue troubleshooting",
+          "sourcePdfPage": 12
+        },
+        {
+          "id": "c2-4.1",
+          "number": "4.1",
+          "domain": "4.0",
+          "title": "Maintain support documentation systems",
+          "summary": "A good ticket separates reported symptoms, observed evidence, actions and verification. Avoid including credentials or unnecessary personal data.",
+          "recall": "Could another technician reproduce your reasoning from your ticket?",
+          "materials": [
+            "messer-2-lesson-059",
+            "messer-2-lesson-060",
+            "messer-2-lesson-061"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=13",
+          "task": {
+            "id": "scenario-2-4.0",
+            "title": "Backup restoration tabletop",
+            "scenario": "A fictional team needs recovery after an accidental deletion.",
+            "prerequisites": "Use synthetic files in a disposable directory or describe the steps without executing them.",
+            "steps": [
+              "List what is backed up, how often and where keys/credentials are kept privately.",
+              "Describe restoring a copy into a separate location, never over the only current copy.",
+              "Define integrity and usability checks, then write a short support ticket."
+            ],
+            "rubric": "Demonstrate a recoverable separate copy; include acceptable data loss and recovery time, not just job status."
+          },
+          "briefTitle": "Useful support records",
+          "sourcePdfPage": 13
+        },
+        {
+          "id": "c2-4.2",
+          "number": "4.2",
+          "domain": "4.0",
+          "title": "Follow controlled change procedures",
+          "summary": "A change needs a purpose, impact assessment, approval and rollback path. Define verification before making the change, not after a failure.",
+          "recall": "What information belongs in a rollback plan?",
+          "materials": [
+            "messer-2-lesson-062"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=13",
+          "task": {
+            "id": "scenario-2-4.0",
+            "title": "Backup restoration tabletop",
+            "scenario": "A fictional team needs recovery after an accidental deletion.",
+            "prerequisites": "Use synthetic files in a disposable directory or describe the steps without executing them.",
+            "steps": [
+              "List what is backed up, how often and where keys/credentials are kept privately.",
+              "Describe restoring a copy into a separate location, never over the only current copy.",
+              "Define integrity and usability checks, then write a short support ticket."
+            ],
+            "rubric": "Demonstrate a recoverable separate copy; include acceptable data loss and recovery time, not just job status."
+          },
+          "briefTitle": "Controlled changes",
+          "sourcePdfPage": 13
+        },
+        {
+          "id": "c2-4.3",
+          "number": "4.3",
+          "domain": "4.0",
+          "title": "Perform workstation backup and recovery",
+          "summary": "Recovery depends on a usable copy, necessary keys and a tested procedure. Define the data-loss window and restoration-time needs rather than assuming a completed job means success.",
+          "recall": "How would you prove a backup can actually restore useful data?",
+          "materials": [
+            "messer-2-lesson-063"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=13",
+          "task": {
+            "id": "scenario-2-4.0",
+            "title": "Backup restoration tabletop",
+            "scenario": "A fictional team needs recovery after an accidental deletion.",
+            "prerequisites": "Use synthetic files in a disposable directory or describe the steps without executing them.",
+            "steps": [
+              "List what is backed up, how often and where keys/credentials are kept privately.",
+              "Describe restoring a copy into a separate location, never over the only current copy.",
+              "Define integrity and usability checks, then write a short support ticket."
+            ],
+            "rubric": "Demonstrate a recoverable separate copy; include acceptable data loss and recovery time, not just job status."
+          },
+          "briefTitle": "Backup and recovery",
+          "sourcePdfPage": 13
+        },
+        {
+          "id": "c2-4.4",
+          "number": "4.4",
+          "domain": "4.0",
+          "title": "Work safely with equipment",
+          "summary": "Protect people before equipment. Disconnect power when appropriate, follow electrostatic precautions and escalate electrical or battery hazards to qualified personnel.",
+          "recall": "Which servicing situations should a support technician decline to improvise?",
+          "materials": [
+            "messer-2-lesson-064",
+            "messer-2-lesson-065"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=14",
+          "task": {
+            "id": "scenario-2-4.0",
+            "title": "Backup restoration tabletop",
+            "scenario": "A fictional team needs recovery after an accidental deletion.",
+            "prerequisites": "Use synthetic files in a disposable directory or describe the steps without executing them.",
+            "steps": [
+              "List what is backed up, how often and where keys/credentials are kept privately.",
+              "Describe restoring a copy into a separate location, never over the only current copy.",
+              "Define integrity and usability checks, then write a short support ticket."
+            ],
+            "rubric": "Demonstrate a recoverable separate copy; include acceptable data loss and recovery time, not just job status."
+          },
+          "briefTitle": "Safe working practices",
+          "sourcePdfPage": 14
+        },
+        {
+          "id": "c2-4.5",
+          "number": "4.5",
+          "domain": "4.0",
+          "title": "Manage environmental risks and conditions",
+          "summary": "Temperature, ventilation and proper disposal affect reliability and safety. Follow local requirements and approved recycling procedures for batteries and electronics.",
+          "recall": "How can blocked airflow become an operational problem?",
+          "materials": [
+            "messer-2-lesson-066"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=14",
+          "task": {
+            "id": "scenario-2-4.0",
+            "title": "Backup restoration tabletop",
+            "scenario": "A fictional team needs recovery after an accidental deletion.",
+            "prerequisites": "Use synthetic files in a disposable directory or describe the steps without executing them.",
+            "steps": [
+              "List what is backed up, how often and where keys/credentials are kept privately.",
+              "Describe restoring a copy into a separate location, never over the only current copy.",
+              "Define integrity and usability checks, then write a short support ticket."
+            ],
+            "rubric": "Demonstrate a recoverable separate copy; include acceptable data loss and recovery time, not just job status."
+          },
+          "briefTitle": "Environmental responsibility",
+          "sourcePdfPage": 14
+        },
+        {
+          "id": "c2-4.6",
+          "number": "4.6",
+          "domain": "4.0",
+          "title": "Respect privacy licensing and policies",
+          "summary": "Collect only information required for authorized support. Policies, agreements and legal requirements determine how evidence and sensitive data may be handled.",
+          "recall": "What would you do before copying a user\u2019s files into a support ticket?",
+          "materials": [
+            "messer-2-lesson-067",
+            "messer-2-lesson-068"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=14",
+          "task": {
+            "id": "scenario-2-4.0",
+            "title": "Backup restoration tabletop",
+            "scenario": "A fictional team needs recovery after an accidental deletion.",
+            "prerequisites": "Use synthetic files in a disposable directory or describe the steps without executing them.",
+            "steps": [
+              "List what is backed up, how often and where keys/credentials are kept privately.",
+              "Describe restoring a copy into a separate location, never over the only current copy.",
+              "Define integrity and usability checks, then write a short support ticket."
+            ],
+            "rubric": "Demonstrate a recoverable separate copy; include acceptable data loss and recovery time, not just job status."
+          },
+          "briefTitle": "Privacy and organizational policy",
+          "sourcePdfPage": 14
+        },
+        {
+          "id": "c2-4.7",
+          "number": "4.7",
+          "domain": "4.0",
+          "title": "Communicate professionally with users",
+          "summary": "Listen, confirm the problem and explain the next step without blame or unsupported promises. Agree on verification with the user before closing a ticket.",
+          "recall": "How would you explain a delay while keeping expectations clear?",
+          "materials": [
+            "messer-2-lesson-069",
+            "messer-2-lesson-070"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=15",
+          "task": {
+            "id": "scenario-2-4.0",
+            "title": "Backup restoration tabletop",
+            "scenario": "A fictional team needs recovery after an accidental deletion.",
+            "prerequisites": "Use synthetic files in a disposable directory or describe the steps without executing them.",
+            "steps": [
+              "List what is backed up, how often and where keys/credentials are kept privately.",
+              "Describe restoring a copy into a separate location, never over the only current copy.",
+              "Define integrity and usability checks, then write a short support ticket."
+            ],
+            "rubric": "Demonstrate a recoverable separate copy; include acceptable data loss and recovery time, not just job status."
+          },
+          "briefTitle": "Professional communication",
+          "sourcePdfPage": 15
+        },
+        {
+          "id": "c2-4.8",
+          "number": "4.8",
+          "domain": "4.0",
+          "title": "Explain scripting fundamentals",
+          "summary": "A script combines operations that may affect many files or systems. Inspect inputs, output paths, privileges and failure handling before running it.",
+          "recall": "How would you review a script that requests administrator access?",
+          "materials": [
+            "messer-2-lesson-071",
+            "messer-2-lesson-072"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=15",
+          "task": {
+            "id": "scenario-2-4.0",
+            "title": "Backup restoration tabletop",
+            "scenario": "A fictional team needs recovery after an accidental deletion.",
+            "prerequisites": "Use synthetic files in a disposable directory or describe the steps without executing them.",
+            "steps": [
+              "List what is backed up, how often and where keys/credentials are kept privately.",
+              "Describe restoring a copy into a separate location, never over the only current copy.",
+              "Define integrity and usability checks, then write a short support ticket."
+            ],
+            "rubric": "Demonstrate a recoverable separate copy; include acceptable data loss and recovery time, not just job status."
+          },
+          "briefTitle": "Reading scripts safely",
+          "sourcePdfPage": 15
+        },
+        {
+          "id": "c2-4.9",
+          "number": "4.9",
+          "domain": "4.0",
+          "title": "Apply remote support technologies",
+          "summary": "Remote support requires authorization and an appropriate secure tool. Confirm identity and session scope, then end access when the support task is complete.",
+          "recall": "Why should unattended access not be enabled casually during a one-time repair?",
+          "materials": [
+            "messer-2-lesson-073"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=15",
+          "task": {
+            "id": "scenario-2-4.0",
+            "title": "Backup restoration tabletop",
+            "scenario": "A fictional team needs recovery after an accidental deletion.",
+            "prerequisites": "Use synthetic files in a disposable directory or describe the steps without executing them.",
+            "steps": [
+              "List what is backed up, how often and where keys/credentials are kept privately.",
+              "Describe restoring a copy into a separate location, never over the only current copy.",
+              "Define integrity and usability checks, then write a short support ticket."
+            ],
+            "rubric": "Demonstrate a recoverable separate copy; include acceptable data loss and recovery time, not just job status."
+          },
+          "briefTitle": "Remote-support boundaries",
+          "sourcePdfPage": 15
+        },
+        {
+          "id": "c2-4.10",
+          "number": "4.10",
+          "domain": "4.0",
+          "title": "Explain AI fundamentals",
+          "summary": "AI output can be incorrect or expose sensitive information when submitted to external tools. Use sanitized examples and verify proposed actions against authoritative documentation.",
+          "recall": "How would you validate an AI-generated troubleshooting command before running it?",
+          "materials": [
+            "messer-2-lesson-074"
+          ],
+          "source": "https://lecbyo.files.cmp.optimizely.com/download/cefedfb2b8a511ef809306d06d323538#page=15",
+          "task": {
+            "id": "scenario-2-4.0",
+            "title": "Backup restoration tabletop",
+            "scenario": "A fictional team needs recovery after an accidental deletion.",
+            "prerequisites": "Use synthetic files in a disposable directory or describe the steps without executing them.",
+            "steps": [
+              "List what is backed up, how often and where keys/credentials are kept privately.",
+              "Describe restoring a copy into a separate location, never over the only current copy.",
+              "Define integrity and usability checks, then write a short support ticket."
+            ],
+            "rubric": "Demonstrate a recoverable separate copy; include acceptable data loss and recovery time, not just job status."
+          },
+          "briefTitle": "Responsible AI assistance",
+          "sourcePdfPage": 15
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "c1-1-sample-1",
+      "objective": "c1-1.1"
+    },
+    {
+      "id": "c1-1-sample-2",
+      "objective": "c1-1.2"
+    },
+    {
+      "id": "c1-2-sample-1",
+      "objective": "c1-2.1"
+    },
+    {
+      "id": "c1-2-sample-2",
+      "objective": "c1-2.6"
+    },
+    {
+      "id": "c1-3-sample-1",
+      "objective": "c1-3.3"
+    },
+    {
+      "id": "c1-3-sample-2",
+      "objective": "c1-3.4"
+    },
+    {
+      "id": "c1-4-sample-1",
+      "objective": "c1-4.1"
+    },
+    {
+      "id": "c1-4-sample-2",
+      "objective": "c1-4.2"
+    },
+    {
+      "id": "c1-5-sample-1",
+      "objective": "c1-5.3"
+    },
+    {
+      "id": "c1-5-sample-2",
+      "objective": "c1-5.5"
+    },
+    {
+      "id": "c2-1-sample-1",
+      "objective": "c2-1.2"
+    },
+    {
+      "id": "c2-1-sample-2",
+      "objective": "c2-1.9"
+    },
+    {
+      "id": "c2-2-sample-1",
+      "objective": "c2-2.5"
+    },
+    {
+      "id": "c2-2-sample-2",
+      "objective": "c2-2.9"
+    },
+    {
+      "id": "c2-3-sample-1",
+      "objective": "c2-3.1"
+    },
+    {
+      "id": "c2-3-sample-2",
+      "objective": "c2-3.2"
+    },
+    {
+      "id": "c2-4-sample-1",
+      "objective": "c2-4.3"
+    },
+    {
+      "id": "c2-4-sample-2",
+      "objective": "c2-4.10"
+    }
+  ]
+}

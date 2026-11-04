@@ -1,0 +1,1770 @@
+[
+  {
+    "id": "messer-1-lesson-002",
+    "title": "Laptop Hardware",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/laptop-hardware-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-1.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-003",
+    "title": "Connecting Mobile Devices",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/connecting-mobile-devices-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-1.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-004",
+    "title": "Mobile Device Accessories",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/mobile-device-accessories-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-1.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-005",
+    "title": "Mobile Device Networks",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/mobile-device-networks-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-1.3"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-006",
+    "title": "Mobile Device Management",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/mobile-device-management-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-1.3"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-007",
+    "title": "Introduction to IP",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/introduction-to-ip-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-2.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-008",
+    "title": "Common Ports",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/common-ports-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-2.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-009",
+    "title": "Wireless Network Technologies",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/wireless-network-technologies-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-2.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-010",
+    "title": "Network Services",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/network-services-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-2.3"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-011",
+    "title": "DNS Configuration",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/dns-configuration-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-2.4"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-012",
+    "title": "DHCP",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/dhcp-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-2.4"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-013",
+    "title": "VLANs and VPNs",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/vlans-and-vpns-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-2.4"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-014",
+    "title": "Network Devices",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/network-devices-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-2.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-015",
+    "title": "IPv4 and IPv6",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/ipv4-and-ipv6-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-2.6"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-016",
+    "title": "Assigning IP Addresses",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/assigning-ip-addresses-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-2.6"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-017",
+    "title": "Internet Connection Types",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/internet-connection-types-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-2.7"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-018",
+    "title": "Network Types",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/network-types-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-2.7"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-019",
+    "title": "Network Tools",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/network-tools-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-2.8"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-020",
+    "title": "Display Types",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/display-types-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-021",
+    "title": "Display Attributes",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/display-attributes-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-022",
+    "title": "Network Cables",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/network-cables-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-023",
+    "title": "568A and 568B Colors",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/568a-and-568b-colors-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-024",
+    "title": "Optical Fiber",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/optical-fiber-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-025",
+    "title": "Peripheral Cables",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/peripheral-cables-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-026",
+    "title": "Video Cables",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/video-cables-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-027",
+    "title": "Storage Cables",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/storage-cables-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-028",
+    "title": "Adapters and Converters",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/adapters-and-converters-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-029",
+    "title": "Copper Connectors",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/copper-connectors-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-030",
+    "title": "Fiber Connectors",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/fiber-connectors-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-031",
+    "title": "An Overview of Memory",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/an-overview-of-memory-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.3"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-032",
+    "title": "Memory Technologies",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/memory-technologies-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.3"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-033",
+    "title": "Storage Devices",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/storage-devices-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.4"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-034",
+    "title": "RAID",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/raid-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.4"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-035",
+    "title": "Motherboard Form Factors",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/motherboard-form-factors-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-036",
+    "title": "Motherboard Expansion Slots",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/motherboard-expansion-slots-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-037",
+    "title": "Motherboard Connections",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/motherboard-connections-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-038",
+    "title": "Motherboard Compatibility",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/motherboard-compatibility-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-039",
+    "title": "The BIOS",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/the-bios-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-040",
+    "title": "BIOS Settings",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/bios-settings-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-041",
+    "title": "HSM and TPM",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/hsm-and-tpm-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-042",
+    "title": "CPU Features",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/cpu-features-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-043",
+    "title": "Expansion Cards",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/expansion-cards-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-044",
+    "title": "Cooling",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/cooling-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-045",
+    "title": "Computer Power",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/computer-power-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.6"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-046",
+    "title": "Multifunction Devices",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/multifunction-devices-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.7"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-047",
+    "title": "Laser Printer Maintenance",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/laser-printer-maintenance-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.8"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-048",
+    "title": "Inkjet Printers",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/inkjet-printers-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.8"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-049",
+    "title": "Inkjet Printer Maintenance",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/inkjet-printer-maintenance-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.8"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-050",
+    "title": "Thermal Printers",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/thermal-printers-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.8"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-051",
+    "title": "Thermal Printer Maintenance",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/thermal-printer-maintenance-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.8"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-052",
+    "title": "Impact Printers",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/impact-printers-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.8"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-053",
+    "title": "Impact Printer Maintenance",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/impact-printer-maintenance-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-3.8"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-054",
+    "title": "Virtualization Concepts",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/virtualization-concepts-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-4.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-055",
+    "title": "Virtualization Services",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/virtualization-services-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-4.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-056",
+    "title": "Cloud Models",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/cloud-models-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-4.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-057",
+    "title": "Cloud Characteristics",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/cloud-characteristics-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-4.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-058",
+    "title": "Troubleshooting Hardware",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/troubleshooting-hardware-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-5.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-059",
+    "title": "Troubleshooting Storage Devices",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/troubleshooting-storage-devices-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-5.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-060",
+    "title": "Troubleshooting Display Issues",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/troubleshooting-display-issues-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-5.3"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-061",
+    "title": "Troubleshooting Mobile Devices",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/troubleshooting-mobile-devices-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-5.4"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-062",
+    "title": "Troubleshooting Networks",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/troubleshooting-networks-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-5.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-1-lesson-063",
+    "title": "Troubleshooting Printers",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1201/220-1201-video/troubleshooting-printers-220-1201/",
+    "core": "core1",
+    "objectives": [
+      "c1-5.6"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-001",
+    "title": "Operating Systems Overview",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/operating-systems-overview-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-002",
+    "title": "File Systems",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/file-systems-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-003",
+    "title": "Installing Operating Systems",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/installing-operating-systems-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-004",
+    "title": "Upgrading Windows",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/upgrading-windows-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-005",
+    "title": "An Overview of Windows",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/an-overview-of-windows-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.3"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-006",
+    "title": "Windows Features",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/windows-features-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.3"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-007",
+    "title": "Task Manager",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/task-manager-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.4"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-008",
+    "title": "The Microsoft Management Console",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/the-microsoft-management-console-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.4"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-009",
+    "title": "Additional Windows Tools",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/additional-windows-tools-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.4"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-010",
+    "title": "Windows Command Line Tools",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/windows-command-line-tools-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-011",
+    "title": "The Windows Network Command Line",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/the-windows-network-command-line-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-012",
+    "title": "The Windows Control Panel",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/the-windows-control-panel-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.6"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-013",
+    "title": "Windows Settings",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/windows-settings-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.6"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-014",
+    "title": "Windows Network Technologies",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/windows-network-technologies-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.7"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-015",
+    "title": "Configuring Windows Firewall",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/configuring-windows-firewall-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.7"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-016",
+    "title": "Windows IP Address Configuration",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/windows-ip-address-configuration-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.7"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-017",
+    "title": "Windows Network Connections",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/windows-network-connections-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.7"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-018",
+    "title": "macOS Overview",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/macos-overview-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.8"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-019",
+    "title": "macOS System Preferences",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/macos-system-preferences-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.8"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-020",
+    "title": "macOS Features",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/macos-features-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.8"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-021",
+    "title": "Linux",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/linux-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.9"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-022",
+    "title": "Linux Commands Part 1",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/linux-commands-part-1-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.9"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-023",
+    "title": "Linux Commands Part 2",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/linux-commands-part-2-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.9"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-024",
+    "title": "Installing Applications",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/installing-applications-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.10"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-025",
+    "title": "Cloud Productivity Tools",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/cloud-productivity-tools-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-1.11"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-026",
+    "title": "Physical Security",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/physical-security-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-027",
+    "title": "Physical Access Security",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/physical-access-security-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-028",
+    "title": "Logical Security",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/logical-security-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-029",
+    "title": "Authentication and Access",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/authentication-and-access-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-030",
+    "title": "Defender Antivirus",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/defender-antivirus-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-031",
+    "title": "Windows Firewall",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/windows-firewall-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-032",
+    "title": "Windows Security Settings",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/windows-security-settings-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-033",
+    "title": "Active Directory",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/active-directory-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-034",
+    "title": "Wireless Encryption",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/wireless-encryption-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.3"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-035",
+    "title": "Authentication Methods",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/authentication-methods-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.3"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-036",
+    "title": "Malware",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/malware-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.4"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-037",
+    "title": "Anti-malware Tools",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/anti-malware-tools-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.4"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-038",
+    "title": "Social Engineering",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/social-engineering-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-039",
+    "title": "Denial of Service",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/denial-of-service-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-040",
+    "title": "On-Path Attacks",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/on-path-attacks-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-041",
+    "title": "Zero-Day Attacks",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/zero-day-attacks-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-042",
+    "title": "Password Attacks",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/password-attacks-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-043",
+    "title": "Insider Threats",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/insider-threats-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-044",
+    "title": "SQL Injection Attacks",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/sql-injection-attacks-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-045",
+    "title": "Cross-site Scripting",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/cross-site-scripting-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-046",
+    "title": "Business Email Compromise",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/business-email-compromise-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-047",
+    "title": "Supply Chain Attacks",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/supply-chain-attacks-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-048",
+    "title": "Security Vulnerabilities",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/security-vulnerabilities-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-049",
+    "title": "Removing Malware",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/removing-malware-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.6"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-050",
+    "title": "Security Best Practices",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/security-best-practices-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.7"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-051",
+    "title": "Mobile Device Security",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/mobile-device-security-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.8"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-052",
+    "title": "Data Destruction",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/data-destruction-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.9"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-053",
+    "title": "Securing a SOHO Network",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/securing-a-soho-network-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.10"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-054",
+    "title": "Browser Security",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/browser-security-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-2.11"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-055",
+    "title": "Troubleshooting Windows",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/troubleshooting-windows-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-3.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-056",
+    "title": "Troubleshooting Mobile Devices",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/troubleshooting-mobile-devices-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-3.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-057",
+    "title": "Troubleshooting Mobile Device Security",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/troubleshooting-mobile-device-security-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-3.3"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-058",
+    "title": "Troubleshooting Security Issues",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/troubleshooting-security-issues-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-3.4"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-059",
+    "title": "Ticketing Systems",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/ticketing-systems-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-060",
+    "title": "Asset Management",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/asset-management-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-061",
+    "title": "Document Types",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/document-types-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.1"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-062",
+    "title": "Change Management",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/change-management-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.2"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-063",
+    "title": "Managing Backups",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/managing-backups-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.3"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-064",
+    "title": "Managing Electrostatic Discharge",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/managing-electrostatic-discharge-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.4"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-065",
+    "title": "Safety Procedures",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/safety-procedures-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.4"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-066",
+    "title": "Environmental Impacts",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/environmental-impacts-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.5"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-067",
+    "title": "Incident Response",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/incident-response-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.6"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-068",
+    "title": "Privacy, Licensing, and Policies",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/privacy-licensing-and-policies-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.6"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-069",
+    "title": "Professionalism",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/professionalism-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.7"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-070",
+    "title": "Communication",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/communication-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.7"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-071",
+    "title": "Scripting Languages",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/scripting-languages-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.8"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-072",
+    "title": "Scripting Use Cases",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/scripting-use-cases-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.8"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-073",
+    "title": "Remote Access",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/remote-access-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.9"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  },
+  {
+    "id": "messer-2-lesson-074",
+    "title": "Managing AI",
+    "provider": "Professor Messer",
+    "url": "https://www.professormesser.com/free-a-plus-training/220-1202/220-1202-video/managing-ai-220-1202/",
+    "core": "core2",
+    "objectives": [
+      "c2-4.10"
+    ],
+    "access": "free",
+    "mapping": "Provider course-index heading; not an independent completeness audit",
+    "contentVersion": "V15"
+  }
+]

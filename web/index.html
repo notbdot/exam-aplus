@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>exam — Tonight</title>
+<meta name="theme-color" content="#edf0f6" media="(prefers-color-scheme:light)"><meta name="theme-color" content="#0d1423" media="(prefers-color-scheme:dark)">
+<link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/tokens.css"><link rel="stylesheet" href="/ui.css"><link rel="stylesheet" href="/app.css"><script type="module" src="/app.js"></script></head>
+<body><a href="#main" class="skip">Skip to content</a>
+<header class="appbar"><div class="appbar-inner">
+<a class="brand" href="/home" data-route="home" aria-label="exam home"><img class="brand-logo logo-light" src="/assets/exam-wordmark-ink.svg" alt=""><img class="brand-logo logo-dark" src="/assets/exam-wordmark-white.svg" alt=""></a>
+<nav class="appnav nav" aria-label="Primary"><a href="/home" data-route="home">Today</a><a href="/course" data-route="course">Objectives</a><a href="/study" data-route="study">Study</a></nav>
+<details class="account"><summary><span class="avatar" aria-hidden="true">A+</span>Study account</summary><div><p id="quietLine" class="small"></p><button type="button" class="btn quiet" id="logoutBtn">Sign out</button></div></details>
+</div></header>
+<div class="savebar" aria-label="Save status"><span id="pageTitle">Today</span><div class="save-actions"><span id="saveStatus" data-state="loading" role="status">Loading progress…</span><button class="btn quiet sm" id="retrySave" hidden>Retry save</button><button class="btn quiet sm" id="backupDraft" hidden>Download unsaved draft</button></div></div>
+<main id="main" tabindex="-1"><section class="state panel" role="status"><p class="eyebrow">Your study room</p><h1>Finding your place…</h1><p>Loading your saved progress and course.</p></section></main>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div></body></html>
