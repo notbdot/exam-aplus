@@ -7,6 +7,7 @@
 <h1 align="center">Your A+ study room.</h1>
 <p align="center">Two cores. Your notes. A clearer next step.<br>A private, self-hosted study companion for CompTIA A+ V15.</p>
 <p align="center"><a href="#quick-start">Get started</a> · <a href="#a-study-session-that-stays-with-you">Study flow</a> · <a href="docs/DEPLOYMENT.md">Deployment & backups</a> · <a href="docs/CONTENT.md">Content & rights</a></p>
+<p align="center"><a href="https://github.com/notbdot/exam-aplus/actions/workflows/ci.yml"><img src="https://github.com/notbdot/exam-aplus/actions/workflows/ci.yml/badge.svg?branch=main" alt="Verify exam A+ workflow status"></a> · <a href="LICENSE">MIT license</a> · Node 22</p>
 
 ![Today view with synthetic study progress](docs/images/desktop-home-light.png)
 
