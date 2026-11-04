@@ -4,9 +4,9 @@
     <img src="web/assets/exam-wordmark-ink.svg" alt="exam" width="220">
   </picture>
 </p>
-<h1 align="center">Your A+ study room.</h1>
-<p align="center">Two cores. Your notes. A clearer next step.<br>A private, self-hosted study companion for CompTIA A+ V15.</p>
-<p align="center"><a href="#quick-start">Get started</a> · <a href="#a-study-session-that-stays-with-you">Study flow</a> · <a href="docs/DEPLOYMENT.md">Deployment & backups</a> · <a href="docs/CONTENT.md">Content & rights</a></p>
+<h1 align="center">exam · A+ edition</h1>
+<p align="center">A private, self-hosted study companion for CompTIA A+ V15.<br>Core 1 (220-1201) and Core 2 (220-1202), with separate progress.</p>
+<p align="center"><a href="#quick-start">Get started</a> · <a href="#study-workflow">Study flow</a> · <a href="docs/DEPLOYMENT.md">Deployment & backups</a> · <a href="docs/CONTENT.md">Content & rights</a></p>
 <p align="center"><a href="https://github.com/notbdot/exam-aplus/actions/workflows/ci.yml"><img src="https://github.com/notbdot/exam-aplus/actions/workflows/ci.yml/badge.svg?branch=main" alt="Verify exam A+ workflow status"></a> · <a href="LICENSE">MIT license</a> · Node 22</p>
 
 ![Today view with synthetic study progress](docs/images/desktop-home-light.png)
@@ -38,7 +38,7 @@ The app opens at **http://localhost:3000** and binds only to loopback by default
 
 For a remote server, use an SSH tunnel to its loopback port or configure an HTTPS reverse proxy with an exact `ORIGIN`. See the [Docker run alternative, HTTPS and security settings](docs/DEPLOYMENT.md). The account label `study` is a password-manager hint; authentication uses your password.
 
-## A study session that stays with you
+## Study workflow
 
 | Today | Objectives | Study |
 | --- | --- | --- |
@@ -55,7 +55,7 @@ Questions start unanswered on each visit. The latest submitted result is saved s
 
 <img src="docs/images/mobile-study-dark.png" alt="Core 2 Study workspace in dark mode on a narrow viewport" width="320">
 
-Screenshots come from the running app with invented study data. No real learner notes or credentials are shown.
+Screenshots come from the running app with invented study data. No real learner notes or credentials are shown. [Interface refinement and verification](docs/DESIGN-REVIEW.md).
 </details>
 
 ## What is included—and what is not

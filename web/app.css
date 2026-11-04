@@ -15,3 +15,17 @@
 @media(max-width:700px){.core-context,.objective-row{align-items:stretch;flex-direction:column}.next-grid,.core-grid{grid-template-columns:1fr}.core-context select{width:100%;min-width:0}.lesson-plate{padding:1.5rem}.course-toolbar{flex-wrap:wrap}.day-select{width:100%}.jump-controls{flex-wrap:wrap}.jump-controls select{width:100%}.range summary{flex-wrap:wrap}.objective-row .btn{align-self:flex-start}}
 .card-pad{padding:1.5rem}.card-pad h2{margin-top:0}.course-toolbar{display:flex;align-items:end;gap:1rem;flex-wrap:wrap;margin-bottom:1rem}.course-toolbar .search-label{flex:1;min-width:0}.course-toolbar input{width:100%} .sheet-workspace{min-width:0}.core-grid{margin-top:1.5rem}.range summary strong{font-size:1.05rem}.brief a{overflow-wrap:anywhere}
 #coreForm{display:flex;gap:.75rem;align-items:end}#coreForm .btn{white-space:nowrap}@media(max-width:700px){#coreForm{flex-wrap:wrap}#coreForm label{flex:1}#coreForm .btn{width:100%}}
+
+/* Impeccable distill/clarify: shorter orientation, existing identity retained. */
+.lesson-context{color:var(--muted);font-size:.875rem;margin:0 0 12px}
+.auth-art h2{font-size:clamp(2rem,4vw,3.5rem);max-width:340px}
+@media(max-width:700px){.auth-art{min-height:140px}.auth-art h2{font-size:1.75rem;margin:16px 0 0}.auth-form{padding-top:24px}.section-nav{flex-wrap:wrap;gap:8px 20px}}
+
+.next-grid .lesson-plate{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;min-height:0;gap:16px}
+.next-grid .lesson-plate h2{margin:0;font-size:clamp(1.7rem,3vw,2.25rem)}
+.next-grid .lesson-plate p{margin:0}.next-grid .lesson-plate .btn{margin:0;background:var(--on-plate);color:var(--plate);border-color:var(--on-plate);align-self:flex-start}
+.next-grid .lesson-plate .btn:hover{background:var(--plate-soft)}
+.objective-meta{font-size:.875rem}.core-code{display:block;font:400 .875rem/1.6 var(--body);color:var(--muted);margin-top:4px}
+.objective-number{color:var(--brand-ink);margin-right:8px}.pack-details{border-block:1px solid var(--line);margin:24px 0}.pack-details>summary{cursor:pointer;min-height:48px;padding:14px 0;font-weight:600}.pack-details .details-body>p{margin-bottom:12px}
+.core-context{margin-bottom:24px}.next-grid+.core-grid{margin-top:24px}
+@media(max-width:700px){.core-context{gap:12px;padding-bottom:16px}#coreForm{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;width:100%}#coreForm .btn{width:auto;font-size:.8125rem;padding-inline:12px}.next-grid{gap:16px}.next-grid .lesson-plate{padding:24px}.page-head h1{font-size:2rem}.next-grid .lesson-plate .btn{width:100%}.completion-control{white-space:normal;flex-shrink:1}}
